@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+---
+title: IRAF community edition
+---
+## This is a draft!
 
-You can use the [editor on GitHub](https://github.com/iraf-community/iraf-community.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+IRAF is the Image Reduction and Analysis Facility, a general purpose software system for the reduction and analysis of astronomical data. IRAF was written by the National Optical Astronomy Observatories (NOAO) in Tucson, Arizona. However, development and maintenance of IRAF is discontinued since 2012. The  latest release had a large number of problems, including major license issues and security bugs.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To keep the software away from  bitrotting, and to fix bugs that are in the package despite (or because) of its age, the iraf-community works on integrating the available patches into the IRAF source code.
 
-### Markdown
+## IRAF snaphot release
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)
 
-```markdown
-Syntax highlighted code block
+The latest official IRAF release is 2.16.1 from March 2012. Our releases are snapshots based on the latest available source code. The snapshots are tagged with their release date in the version number. Changes to the original [2.16.1 sources](http://iraf.noao.edu/iraf/ftp/iraf/v216/PCIX/) (and upstreams [master branch](https://github.com/iraf/iraf-v216/tree/9590f45760a4791f3305407fb51c87f1282b32be)) include:
 
-# Header 1
-## Header 2
-### Header 3
+* __Fixes to build and run IRAF on non-historic platforms__
+  The original code produced errornous executables when build on Linux versions later than 2012, due to some funny hacks in the IRAF code. It also did not build from scratch, but required an already compiled IRAF version. 
 
-- Bulleted
-- List
+* __Major bug fixes__
+  Many [bugs](https://github.com/iraf/iraf-v216/issues) of the 2.16.1 release are fixed. Some of he major ones are:
+   - Linux systems crashed with "Out of memory" (13 year old bug; [2.12 release notes](https://github.com/iraf/iraf-v216/blob/9590f45760a4791f3305407fb51c87f1282b32be/doc/notes.v212#L1065-L1075))
+   - `noao.digiphot.photcal.fitparams` failed with a segmentation fault on 64-bit systems ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
+   - The system wide IRAF installation changed the permissions of `/tmp/`, creating a major security hole in the system (iraf/iraf-v216#23)
+   - On Linux systems, self-compiled tasks gave wrong results ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
+   - On modern systems, background execution did not work ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
 
-1. Numbered
-2. List
+* __All known non-free code removed__
+    Although IRAF 2.16.1 was claimed to be "free software", it contained source code that is not freely distributable; namely code copied from the book ["Numerical Recipes in Fortran"](http://numerical.recipes/). This code is replaced with free equivalents.
 
-**Bold** and _Italic_ and `Code` text
+* __VO package and vocl removed__
+    The VO package, and the vocl shell heavily depend on a number of Java jars, where the creation from sources is undocumented. The package also uses outdated VO standards. A discussion with Mike Fitzpatrick resulted in his plan to [move the VO functionality into an external package](https://github.com/iraf/iraf-v216/issues/90#issuecomment-310968834). Therefore, no attempt was put into getting these problems fixed, and the VO stuff was cut out.
+    The VOTable functionality, however, remains available
 
-[Link](url) and ![Image](src)
+* __IRAF ported to other architectures__
+    IRAF is now ported to a number of little endian architectures (ARM, PowerPC, MIPS, x32) and operating systems (GNU Hurd and FreeBSD).
+
+* __Simple CI test framework added__
+    The tests are defined and documented in [MarkDown](https://github.com/olebole/iraf-v216/blob/v2.16.1%2B2018.03.10/test/README.md) files. Tests are run on Travis CI on all supported platforms.
+
+## Download and install IRAF
+
+### IRAF packages
+
+IRAF is distributed as packages for some major Linux systems:
+
+* Ubuntu ships IRAF with 18.04 LTS Bionic Beaver
+
+* Debian 10 Buster will come with IRAF
+
+* An IRAF package for Fedora Linux is currently under review
+
+On supported Ubuntu and Debian systems, IRAF can be installed with the package manager. From the command line, this can be done running the following command as root:
+
+```
+apt install iraf
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Binary and source tarballs
 
-### Jekyll Themes
+IRAF is currently distributed as a source tarball. From the next snapshot, binary tarballs will be distributed for the major supported platforms. The binary tarballs include the complete source code.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iraf-community/iraf-community.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Linux 64 bit
 
-### Support or Contact
+* Linux 32 bit
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* MacOSX 64 bit
+
+* MacOSX 32 bit
+
+* [Release directory](https://github.com/iraf-community/iraf/releases/latest/)
+
+After unpackaging the tarball into a separate subdirectory, follow the README to install the package.
+
+## Development, Report bugs and Contribute
+
+IRAF is developed in an open way in a [github repository](https://github.com/iraf-community/iraf). Join the development by contributing bug reports or bug fixes.
+
+If you encounter something you believe to be a mistake, error, or bug, the best way to get it addressed is to report it on the [github issue tracker](https://github.com/iraf-community/iraf/issues). If you believe you know how to fix the problem, please consider [contributing](https://github.com/iraf-community/iraf/pulls)!
