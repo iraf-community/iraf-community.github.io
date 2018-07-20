@@ -57,17 +57,7 @@ apt install iraf
 
 ### Binary and source tarballs
 
-IRAF is currently distributed as a source tarball. From the next snapshot, binary tarballs will be distributed for the major supported platforms. The binary tarballs include the complete source code.
-
-* Linux 64 bit
-
-* Linux 32 bit
-
-* MacOSX 64 bit
-
-* MacOSX 32 bit
-
-* [Release directory](https://github.com/iraf-community/iraf/releases/latest/)
+IRAF is currently distributed as a source tarball. From the next snapshot, binary tarballs will be distributed for 64 and 32 bin Linux and MacOS X systems with Intel compatible CPUs. All tarballs can be downloaded from the [release directory](https://github.com/iraf-community/iraf/releases/latest/).
 
 After unpackaging the tarball into a separate subdirectory, follow the README to install the package.
 
