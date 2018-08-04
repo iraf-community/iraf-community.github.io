@@ -19,10 +19,10 @@ The latest official IRAF release is 2.16.1 from March 2012. Our releases are sna
 * __Major bug fixes__
   Many [bugs](https://github.com/iraf/iraf-v216/issues) of the 2.16.1 release are fixed. Some of he major ones are:
    - Linux systems crashed with "Out of memory" (13 year old bug; [2.12 release notes](https://github.com/iraf/iraf-v216/blob/9590f45760a4791f3305407fb51c87f1282b32be/doc/notes.v212#L1065-L1075))
-   - `noao.digiphot.photcal.fitparams` failed with a segmentation fault on 64-bit systems ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
-   - The system wide IRAF installation changed the permissions of `/tmp/`, creating a major security hole in the system (iraf/iraf-v216#23)
-   - On Linux systems, self-compiled tasks gave wrong results ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
-   - On modern systems, background execution did not work ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
+   - `noao.digiphot.photcal.fitparams` failed with a segmentation fault on 64-bit systems ([iraf.net discussion](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
+   - The system wide IRAF installation changed the permissions of `/tmp/`, creating a major security hole in the system ([iraf/iraf-v216#23](https://github.com/iraf/iraf-v216/issues/23))
+   - On Linux systems, self-compiled tasks gave wrong results ([iraf.net discussion](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
+   - On modern systems, background execution did not work ([iraf.net discussion](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
 
 * __All known non-free code removed__
     Although IRAF 2.16.1 was claimed to be "free software", it contained source code that is not freely distributable; namely code copied from the book ["Numerical Recipes in Fortran"](http://numerical.recipes/). This code is replaced with free equivalents.
