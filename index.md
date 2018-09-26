@@ -1,5 +1,5 @@
 ---
-title: IRAF community edition
+title: IRAF 2.16.1 Community Edition
 ---
 ## This is a draft!
 
@@ -7,16 +7,18 @@ IRAF is the Image Reduction and Analysis Facility, a general purpose software sy
 
 To keep the software away from  bitrotting, and to fix bugs that are in the package despite (or because) of its age, the iraf-community works on integrating the available patches into the IRAF source code.
 
-## IRAF snaphot release
+## IRAF 2.16.1+ snaphot release
 
 ![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)
 
 The latest official IRAF release is 2.16.1 from March 2012. Our releases are snapshots based on the latest available source code. The snapshots are tagged with their release date in the version number. Changes to the original [2.16.1 sources](http://iraf.noao.edu/iraf/ftp/iraf/v216/PCIX/) (and upstreams [master branch](https://github.com/iraf/iraf-v216/tree/9590f45760a4791f3305407fb51c87f1282b32be)) include:
 
-* __Fixes to build and run IRAF on non-historic platforms__
-  The original code produced errornous executables when build on Linux versions later than 2012, due to some funny hacks in the IRAF code. It also did not build from scratch, but required an already compiled IRAF version. 
+* __All known non-free code removed__
+
+    Although IRAF 2.16.1 was claimed to be "free software", it contained source code that is not freely distributable; namely code copied from the book ["Numerical Recipes in Fortran"](http://numerical.recipes/). This code is replaced with free equivalents. The IRAF community edition is [Open Source](https://opensource.org/docs/osd), and as such included in Debian.
 
 * __Major bug fixes__
+
   Many [bugs](https://github.com/iraf/iraf-v216/issues) of the 2.16.1 release are fixed. Some of he major ones are:
    - Linux systems crashed with "Out of memory" (13 year old bug; [2.12 release notes](https://github.com/iraf/iraf-v216/blob/9590f45760a4791f3305407fb51c87f1282b32be/doc/notes.v212#L1065-L1075))
    - `noao.digiphot.photcal.fitparams` failed with a segmentation fault on 64-bit systems ([iraf.net discussion](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
@@ -24,18 +26,22 @@ The latest official IRAF release is 2.16.1 from March 2012. Our releases are sna
    - On Linux systems, self-compiled tasks gave wrong results ([iraf.net discussion](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
    - On modern systems, background execution did not work ([iraf.net discussion](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
 
-* __All known non-free code removed__
-    Although IRAF 2.16.1 was claimed to be "free software", it contained source code that is not freely distributable; namely code copied from the book ["Numerical Recipes in Fortran"](http://numerical.recipes/). This code is replaced with free equivalents.
+* __Fixes to build and run IRAF on non-historic platforms__
+
+  The original code produced errornous executables when build on Linux versions later than 2012, due to some funny hacks in the IRAF code. It also did not build from scratch, but required an already compiled IRAF version. 
 
 * __VO package and vocl removed__
+
     The VO package, and the vocl shell heavily depend on a number of Java jars, where the creation from sources is undocumented. The package also uses outdated VO standards. A discussion with Mike Fitzpatrick resulted in his plan to [move the VO functionality into an external package](https://github.com/iraf/iraf-v216/issues/90#issuecomment-310968834). Therefore, no attempt was put into getting these problems fixed, and the VO stuff was cut out.
     The VOTable functionality, however, remains available
 
 * __IRAF ported to other architectures__
-    IRAF is now ported to a number of little endian architectures (ARM, PowerPC, MIPS, x32) and operating systems (GNU Hurd and FreeBSD).
+
+    IRAF is now ported to a number of little endian architectures (ARM, PowerPC, MIPS, x32) and operating systems ([GNU Hurd](https://www.gnu.org/software/hurd/) and [FreeBSD](https://www.freebsd.org/)).
 
 * __Simple CI test framework added__
-    The tests are defined and documented in [MarkDown](https://github.com/olebole/iraf-v216/blob/v2.16.1%2B2018.03.10/test/README.md) files. Tests are run on Travis CI on all supported platforms.
+
+    The tests are defined and documented in [MarkDown](https://github.com/olebole/iraf-v216/blob/v2.16.1%2B2018.03.10/test/README.md) files. Tests are run on Travis CI on Linux and MacOS X platforms.
 
 ## Download and install IRAF
 
@@ -57,7 +63,7 @@ apt install iraf
 
 ### Binary and source tarballs
 
-IRAF is currently distributed as a source tarball. From the next snapshot, binary tarballs will be distributed for 64 and 32 bin Linux and MacOS X systems with Intel compatible CPUs. All tarballs can be downloaded from the [release directory](https://github.com/iraf-community/iraf/releases/latest/).
+IRAF is currently distributed as a source tarball. From the next snapshot, binary tarballs will be distributed for 64 and 32 bit Linux and MacOS X systems with Intel compatible CPUs. All tarballs can be downloaded from the [release directory](https://github.com/iraf-community/iraf/releases/latest/).
 
 After unpackaging the tarball into a separate subdirectory, follow the README to install the package.
 
