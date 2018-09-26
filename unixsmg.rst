@@ -184,7 +184,7 @@ The TAPECAP file
 ................
 
 Since V2.10 IRAF magtape devices are described by the "tapecap" file,
-`dev$tapecap`. This replaces the "devices" file used in earlier versions
+*dev$tapecap*. This replaces the *devices* file used in earlier versions
 of IRAF.  The tapecap file describes each local magtape device and controls all
 i/o to the device, as well as device allocation.
 
@@ -194,37 +194,37 @@ in the global tapecap file.  Since V2.11 this scheme was generalized to
 allow each host to have its own private tapecap file, with a fallback to
 the generic tapecap file if no host-specific file is found. 
 The system will look first for a configuration file called
-`tapecap.<node>` where `<node>` is the hostname of the server
-the tapecap file describes, if that is not found the default `tapecap`
+*tapecap.<node>* where *<node>* is the hostname of the server
+the tapecap file describes, if that is not found the default tapecap
 file will be used.  
 In this way a separate tapecap file can be created for
-each node allowing a name such as 'mta' to always refer to the first tape
+each node allowing a name such as `mta` to always refer to the first tape
 on that machine regardless of whether it varies in type from node to node.
 On the other hand, sites may wish to maintain only a single tapecap file
 with generic names describing each of the different types of tapes available
 in the local network.  In this case it is wise to also configure the
-`devices.hlp` file described in the next section to document the names
+*devices.hlp* file described in the next section to document the names
 of the devices to be used to avoid any confusion.
 
 The tapecap files included in the distributed system include some generic
-device entries such as "mtxb1" (Exabyte unit 1, Sun ST driver), "mthp2"
+device entries such as `mtxb1` (Exabyte unit 1, Sun ST driver), `mthp2`
 (HP7880 9 track drive, unit 2), and so on which you may be able to use as-is
 to access your local magtape devices.   The exact list of available device
 types depend on the platform in question.  Most likely you will want to add
 some device aliases, and you may need to prepare custom device entries for
 local devices.  There must be an entry in the tapecap file for a magtape
 device in order to be able to access the device from within IRAF.  All magtape
-device names *must* being with the two-letter prefix "mt".
+device names *must* being with the two-letter prefix `mt`.
 
 Configuring new TAPECAP entries
 ...............................
 
-The `tapecap` file is text data base file (similar to the
-`termcap` and `graphcap` files) describing the capabilities and 
+The "tapecap" file is text data base file (similar to the
+"termcap" and "graphcap" files) describing the capabilities and 
 device names associated with a particular tape device on the system.  For
 information on the format of the file see the termcap(5) man page. A listing
 of all recognized fields is given in the program comments for the tape
-driver in `iraf$unix/os/zfiomt.c` (more on this later).  In general, creating
+driver in *iraf$unix/os/zfiomt.c* (more on this later).  In general, creating
 a new tapecap entry for a device is a matter of finding a similar entry in
 the distributed file, and either using that directly if the device names are
 correct, or simply modifying it slightly to change device names so it will
@@ -240,8 +240,8 @@ a low-level
 generic section describing capabilities associated with all instances of a
 particular type of drive (DAT, Exabyte, 9-track, etc.).  The starting point 
 for the tapecap entry is whatever iraf name was used to access the drive.
-This is usually something like 'mta', 'mtb', etc but can be any valid name
-beginning with an 'mt' prefix and which defines all the needed parameters.
+This is usually something like `mta`, `mtb`, etc but can be any valid name
+beginning with an `mt` prefix and which defines all the needed parameters.
 When searching for a particular tapecap parameter the *first* occurrence
 of that parameter in the entry is used by the system, and a complete tapecap 
 description is composed of all the entries which are linked by the `:tc`
@@ -254,9 +254,9 @@ a Solaris/IRAF system as 'mta', the high-level entry would look like:
 
    mta|Generic DAT entry, unit 0|         :tc=mtst0.solaris.dat:
 
-Here we define the iraf name (which must begin with an 'mt' prefix)
+Here we define the iraf name (which must begin with an `mt` prefix)
 along with any aliases delimited by the `|`.  The `:tc` field
-continues the tapecap at the next entry named "mtst0.solaris.dat":
+continues the tapecap at the next entry named `mtst0.solaris.dat`:
 
 .. code::
 
@@ -267,7 +267,7 @@ continues the tapecap at the next entry named "mtst0.solaris.dat":
 
 This entry is primarily used to specify the host device names associated with
 the drive.  The `:al` (aliases) field is a list of *all* device
-aliases in the UNIX /dev or /dev/rmt directories associated with this device.
+aliases in the UNIX */dev* or */dev/rmt* directories associated with this device.
 This is needed so the tape allocation task can properly change the permissions
 and ownership on *each* device name which accesses that tape drive. The
 `:dv` (device) field is the *no-rewind* device name and is the
@@ -275,14 +275,14 @@ device file actually opened for tape I/O;  this must be a no-rewind device
 since IRAF will maintain the tape position automatically, the actual value
 typically depends on the
 density of the tape, whether compression is used etc.  The `:lk` is used
-to build the name of a "lok file" that is created in the `/tmp` directory of the
+to build the name of a "lok file" that is created in the */tmp* directory of the
 machine hosting the drive that will be used to maintain the tape status and
 position information, this value should be unique for each drive on the
 machine to avoid conflicts.  When configuring a new tapecap entry, all one
 usually needs change is the iraf device name in the first section and the
 host device names in the `:dv`, `:al` and `:lk` fields of this entry.  Finally this
 section continues the entry with a `:tc` field saying to branch to the
-"solaris-dat" generic entry:
+`solaris-dat` generic entry:
 
 .. code::
    
@@ -294,8 +294,8 @@ The low-level entry here is where parameters relating to all drives of a
 particular type using a particular host tape driver are maintained, e.g.
 the record sized used for tape I/O, positioning capabilities, filemark sizes,
 etc.  These will rarely need to be changed from the distributed entries unless
-you are using a new tape driver or a different model tape drive, , or a
-type of tape cartridge with a capacity different than that given ("tz").
+you are using a new tape driver or a different model tape drive, or a
+type of tape cartridge with a capacity different than that given (`tz`).
 See the section below for a full list of the tapecap parameters and their
 meanings.
 
@@ -329,16 +329,16 @@ level entry where we make use of the existing EXB8200 entry:
    mtsee0hic|mtst0.exb8505-c|:dv=0cbn:fs#48000:ts#5000000:tc=mtsee0:
 
 Note that the names we just created link to the one-line entries below the
-standard EXB 8200 entry 'mtst0.solaris.exb8200' (the `mtb` entry could
+standard EXB 8200 entry `mtst0.solaris.exb8200` (the `mtb` entry could
 just as legally have linked to this entry right away). Since all we need to
 change is the `:dv` field (because we're opening the same drive, but by
 using a different name the host system accesses it in the appropriate mode)
-we can simply make a new entry point, change the :dv field and then link to
+we can simply make a new entry point, change the `:dv` field and then link to
 the existing entry where all the rest of the parameters will be the same.
 In this case we've also reset the `:fs` and `:ts` fields to override
 the values in the low-level Exabyte description since these have also changed
 for the new model drive.  If we wished to modify this entry for a drive on 
-e.g. unit 2 all we would need to do is modify the various :dv, :al, and :lk
+e.g. unit 2 all we would need to do is modify the various `:dv`, `:al`, and `:lk`
 fields so the device names are correct, and change the name of the tapecap
 entry points so we avoid any confusion later on.
 
@@ -350,7 +350,7 @@ what's going on, to do this use the `:so` field as follows:
    
    cl> set tapecap = ":so=/dev/tty"
 
-Alternatively, the :so can be specified on the command line, e.g.
+Alternatively, the `:so` can be specified on the command line, e.g.
 
 .. code::
 
@@ -358,7 +358,7 @@ Alternatively, the :so can be specified on the command line, e.g.
 
 Any other tapecap parameters can be specified in the same way.  The
 quotes around the tape name are required if any special characters such as
-'=' are included in the device name string.  Status output like
+`=` are included in the device name string.  Status output like
 this can also be directed to an *Xtapemon* server running either locally
 or remotely, see the xtapemon man page for details.  Help with configuring
 new tapecap entries is available from IRAF site support.
@@ -371,7 +371,7 @@ that need to be changed are `:dv`, `:al`, and maybe `:lk`.  There
 are however a number of other tapecap parameters that sometimes must be 
 modified to describe how the tape device operates or to optimize I/O to
 the device.  A full listing of the available tapecap parameters can be found
-in the program comments for the iraf tape driver iraf$unix/os/zfiomt.c; we
+in the program comments for the iraf tape driver *iraf$unix/os/zfiomt.c*; we
 will only briefly discuss a few here.  Any changes you make with the
 parameters mentioned here can usually go in the low-level tapecap entry so
 they will "fix" all drives of the same type, however you may also wish to
@@ -381,7 +381,7 @@ modify just the high-level entry to change only one drive.  For example:
    
    mta|Generic DAT entry, unit 0|      :se:ow:tc=mtst0.solaris.dat:
 
-would add the ":se:ow" fields (discussed below) to only the *mta* device.
+would add the `:se:ow` fields (discussed below) to only the `mta` device.
 
 Boolean tapecap parameters may be negated if you are linking to an existing
 entry which already defines a particular field.  For example, in
@@ -390,7 +390,7 @@ entry which already defines a particular field.  For example, in
    
    mta|Generic DAT entry, unit 0|      :se@:tc=mtst0.solaris.dat:
 
-the '@' character would negate the `:se` field regardless of whether it
+the `@` character would negate the `:se` field regardless of whether it
 is defined elsewhere in the entry.
 
 One of the most common problems encountered is that only odd-numbered images
@@ -460,7 +460,7 @@ The DEVICES.HLP file
 ....................
 
 All physical devices that the user might need to access by name should be
-documented in the file dev$devices.hlp.  Typing
+documented in the file *dev$devices.hlp*.  Typing
 
 .. code::
    
@@ -488,7 +488,7 @@ There must be entries in this file for all local terminal and printer
 devices you wish to access from IRAF (there is currently no "printcap" file
 in IRAF).  The entry for a printer contains one special device-specific
 entry, called `DD`.  This consists of three fields: the device name,
-e.g. "node!device", the template for the temporary spoolfile, and the UNIX
+e.g. `node!device`, the template for the temporary spoolfile, and the UNIX
 command to be used to dispose of the file to the printer.  On most UNIX
 systems it is not necessary to make use of the node name and IRAF networking
 to access a remote device since UNIX *lpr* already provides this
@@ -496,9 +496,9 @@ capability, however it might still be useful if the desired device does not
 have a local *lpr* entry for some reason.  Printer devices named in this
 file may be used for text hardcopy output such as you get from the LPRINT
 task, graphics hardcopy devices are configured by editing the
-`graphcap` file discussed in the next section.
+*graphcap* file discussed in the next section.
 
-As an example, assume we have a printer known to the sun as 'lw5', the
+As an example, assume we have a printer known to the sun as `lw5`, the
 termcap entry would look something like:
 
 .. code::
@@ -509,9 +509,9 @@ termcap entry would look something like:
         :co#80:li#66:os:pt:ta^I:\
         :DD=lpnode!apple,/tmp/asfXXXXXX,!{ lpr -Plw5 $F; rm $F; }:
 
-To then create an entry for a new device named 'lw16' simply copy this
-entry and change the '5' to '16' in the device and termcap entry 
-names, and especially in the *lpr* command of the `DD* string.  
+To then create an entry for a new device named `lw16` simply copy this
+entry and change the `5` to `16` in the device and termcap entry 
+names, and especially in the *lpr* command of the `DD` string.  
 The `$F` denotes the name
 of the file to be printed, specifically the temp file created so it should
 be removed to avoid filling up the disk.  Note that the `DD` string
@@ -565,13 +565,13 @@ of a simple print command we invoke an SGI translator via the
 is used to the convert the graphics kernel metacode to PostScript for the 
 final printing.  The arguments to the *sgi2uapl* translator are the
 device resolution and offset parameters obtained from the *sgi_apl*
-entry linked by the :tc field at the end of the graphcap entry.  The output
+entry linked by the `:tc` field at the end of the graphcap entry.  The output
 from the translator is piped to a printer and the temp file is removed.
 
 If we wish to convert this entry for a different type of printer, aside from
 the changing the name in the graphcap entries and the print command,
 the DD string may have to be changed to call a new SGI translator
-with the appropriate arguments, and the final :tc field would have to link
+with the appropriate arguments, and the final `:tc` field would have to link
 to a new entry appropriate for that device.  In V2.12 the following SGI
 translators are available: 
 
