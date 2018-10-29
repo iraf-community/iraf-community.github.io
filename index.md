@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.16.1+ Community Edition
+title: IRAF 2.16.1+
 ---
 
 [![IRAF's Travis CI Status](https://travis-ci.com/iraf-community/iraf.svg)](https://travis-ci.com/iraf-community/iraf)
@@ -9,13 +9,14 @@ IRAF is the Image Reduction and Analysis Facility, a general purpose
 software system for the reduction and analysis of astronomical
 data. IRAF was written by the National Optical Astronomy Observatories
 (NOAO) in Tucson, Arizona. However, development and maintenance of
-IRAF is discontinued since 2012. The latest release had a large number
-of problems, including major license issues and security bugs.
+IRAF is discontinued since 2013. The latest NOAO release had a large
+number of problems, including major license issues and security bugs.
 
 To keep the software away from bitrotting, and to fix bugs that are in
-the package despite (or because) of its age, the iraf-community works
-on maintaining and integrating the available patches into the IRAF
-source code.
+the package despite (or because) of its age, the
+[iraf-community](https://github.com/iraf-community/) works on
+maintaining IRAF and integrating the available patches into the source
+code.
 
 ## Contributing Code, Documentation, or Feedback
 
