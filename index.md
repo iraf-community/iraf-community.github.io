@@ -30,9 +30,6 @@ To contribute patches, we suggest to create a
 
 ## License
 
-IRAF is licensed under a
-[MIT style license](https://github.com/iraf-community/iraf/blob/master/COPYRIGHT).
-Detailed licensing information for third party code may be found in the
-[`doc/LICENSES`](https://github.com/iraf-community/iraf/tree/master/doc/LICENSES)
-subdirectory. Note that all non-free code from the book
-[*Numerical Recipes*](http://numerical.recipes/) was removed.
+IRAF is licensed under a [MIT style license](license). Note that all
+non-free code from the book [*Numerical
+Recipes*](http://numerical.recipes/) was removed.
