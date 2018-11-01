@@ -77,6 +77,50 @@ sources include:
 
 This list shows all pull requests that were merged since 2.16.1.
 
+### Since 2.16.1+2018.06.15
+
+* Distribute x86_64 binaries for Linux and macos
+  ([#49](https://github.com/iraf-community/iraf/pull/49))
+* Add riscv64 support
+  ([#72](https://github.com/iraf-community/iraf/pull/72))
+* Fix buffer length in `urlget.x`
+  ([#70](https://github.com/iraf-community/iraf/pull/70))
+* Mention Chisato Yamauchi as copyright owner of the x86_64 `zsvjmp.s` code
+  ([#67](https://github.com/iraf-community/iraf/pull/67))
+* Adjust calling of nttools subdir in `pkg/utilities/mkpkg`
+  ([#65](https://github.com/iraf-community/iraf/pull/65))
+* Update and modernize top-level information files
+  ([#64](https://github.com/iraf-community/iraf/pull/64),
+   [#73](https://github.com/iraf-community/iraf/pull/73))
+* Check for the existence of the `arch` variable before using it
+  ([#63](https://github.com/iraf-community/iraf/pull/63))
+* Improve prototyping in bootlib
+  ([#62](https://github.com/iraf-community/iraf/pull/62))
+* Appended `ZTTYSZ()` function to get width and height of terminal
+  ([#58](https://github.com/iraf-community/iraf/pull/58))
+* Replace readline library by libedit on macos
+  ([#57](https://github.com/iraf-community/iraf/pull/57))
+* Clean and fix shell scripts
+  ([#50](https://github.com/iraf-community/iraf/pull/50),
+   [#51](https://github.com/iraf-community/iraf/pull/51),
+   [#53](https://github.com/iraf-community/iraf/pull/53),
+   [#54](https://github.com/iraf-community/iraf/pull/54),
+   [#55](https://github.com/iraf-community/iraf/pull/55),
+   [#75](https://github.com/iraf-community/iraf/pull/75),
+   [#76](https://github.com/iraf-community/iraf/pull/76),
+   [#77](https://github.com/iraf-community/iraf/pull/77))
+* Fix variable declaration in noao/obsutil/src/findgain.cl
+  ([#47](https://github.com/iraf-community/iraf/pull/47))
+* Remove unused empty files
+  ([#45](https://github.com/iraf-community/iraf/pull/45))
+* Add manpages
+  ([#44](https://github.com/iraf-community/iraf/pull/44))
+* Update cfitsio to 3.450
+  ([#43](https://github.com/iraf-community/iraf/pull/43))
+* votable: Fix data type of loop variable
+  ([#41](https://github.com/iraf-community/iraf/pull/41))
+
+
 ### Since 2.16.1+2018.03.10
 
 * Implement the 'apropos' command
