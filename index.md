@@ -2,6 +2,7 @@
 title: IRAF 2.16.1+
 ---
 
+[![ascl:9911.002](https://img.shields.io/badge/ascl-9911.002-blue.svg?colorB=262255)](http://ascl.net/9911.002)
 [![IRAF's Travis CI Status](https://travis-ci.com/iraf-community/iraf.svg)](https://travis-ci.com/iraf-community/iraf)
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
 
@@ -18,6 +19,7 @@ the package despite (or because) of its age, the
 maintaining IRAF and integrating the available patches into the source
 code.
 
+
 ## Contributing Code, Documentation, or Feedback
 
 IRAF can only survive by the contribution of its users, so we welcome
@@ -33,3 +35,20 @@ To contribute patches, we suggest to create a
 IRAF is licensed under a [MIT style license](license). Note that all
 non-free code from the book [*Numerical
 Recipes*](http://numerical.recipes/) was removed.
+
+
+## Citation
+
+IRAF is listed in the Astronomical Source Code Library as
+[ascl:9911.002](https://ascl.net/9911.002). There are two papers appropriate
+as references for IRAF in a publication:
+
+* Tody, D., [The IRAF Data Reduction and Analysis System](doc/iraf.pdf) in
+  Proc. SPIE Instrumentation in Astronomy VI, ed. D.L. Crawford, 627,
+  733 (1986) ([ADS](https://adsabs.harvard.edu/abs/1986SPIE..627..733T))
+  
+* Tody, D., [IRAF in the Nineties](doc/iraf92.pdf), in Astronomical
+  Data Analysis Software and Systems II, A.S.P. Conference Ser., Vol
+  52, eds. R.J. Hanisch, R.J.V. Brissenden, & J. Barnes, 173 (1993)
+  ([ADS](https://adsabs.harvard.edu/abs/1993ASPC...52..173T))
+  
