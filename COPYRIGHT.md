@@ -39,5 +39,12 @@ IRAF has the following copyright information:
 Copyright information of source code that is included in IRAF can be
 found in the subdirectory
 [`doc/LICENSES`](https://github.com/iraf-community/iraf/tree/master/doc/LICENSES)
-of the IRAF source code. Note that all non-free code from the book
-[*Numerical Recipes*](http://numerical.recipes/) was removed.
+of the IRAF source code.
+
+The last NOAO versions of IRAF had licensing problems with non-free
+code from the book [*Numerical Recipes*](http://numerical.recipes/)
+and not acknowledging contributions from the [IRAF64
+project](https://www.ir.isas.jaxa.jp/~cyamauch/iraf64/index.html). These
+problems are described in detail
+[here](https://iraf-community.github.io/iraf-v216/license-problems). They
+are all resolved in the community distribution of IRAF.

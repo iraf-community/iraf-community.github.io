@@ -2,7 +2,9 @@
 title: IRAF 2.16.1+ Release notes
 ---
 
-# Release notes
+[![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
+
+## Release notes
 
 The IRAF v2.16.1 snapshots are available from github at
 

@@ -3,8 +3,8 @@ title: IRAF 2.16.1+
 ---
 
 [![ascl:9911.002](https://img.shields.io/badge/ascl-9911.002-blue.svg?colorB=262255)](http://ascl.net/9911.002)
-[![IRAF's Travis CI Status](https://travis-ci.com/iraf-community/iraf.svg)](https://travis-ci.com/iraf-community/iraf)
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
+[![IRAF's Travis CI Status](https://travis-ci.com/iraf-community/iraf.svg)](https://travis-ci.com/iraf-community/iraf)
 
 IRAF is the Image Reduction and Analysis Facility, a general purpose
 software system for the reduction and analysis of astronomical
