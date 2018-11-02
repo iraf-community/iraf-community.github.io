@@ -8,7 +8,8 @@ title: IRAF 2.16.1+
 
 IRAF is the Image Reduction and Analysis Facility, a general purpose
 software system for the reduction and analysis of astronomical
-data. IRAF was written by the National Optical Astronomy Observatories
+data. IRAF is licensed under a [MIT style license](COPYRIGHT). The
+software was written by the National Optical Astronomy Observatories
 (NOAO) in Tucson, Arizona. However, development and maintenance of
 IRAF is discontinued since 2013. The latest NOAO release had a large
 number of problems, including major license issues and security bugs.
@@ -30,25 +31,22 @@ To contribute patches, we suggest to create a
 [pull request on GitHub](https://github.com/iraf-community/iraf/pulls).
 
 
-## License
-
-IRAF is licensed under a [MIT style license](license). Note that all
-non-free code from the book [*Numerical
-Recipes*](http://numerical.recipes/) was removed.
-
-
 ## Citation
 
 IRAF is listed in the Astronomical Source Code Library as
 [ascl:9911.002](https://ascl.net/9911.002). There are two papers appropriate
 as references for IRAF in a publication:
 
-* Tody, D., [The IRAF Data Reduction and Analysis System](doc/iraf.pdf) in
+* Tody, D., [The IRAF Data Reduction and Analysis
+  System](https://iraf-community.github.io/doc/iraf.pdf), in
   Proc. SPIE Instrumentation in Astronomy VI, ed. D.L. Crawford, 627,
-  733 (1986) ([ADS](https://adsabs.harvard.edu/abs/1986SPIE..627..733T))
+  733 (1986)
+  ([ADS](https://adsabs.harvard.edu/abs/1986SPIE..627..733T))
   
-* Tody, D., [IRAF in the Nineties](doc/iraf92.pdf), in Astronomical
-  Data Analysis Software and Systems II, A.S.P. Conference Ser., Vol
-  52, eds. R.J. Hanisch, R.J.V. Brissenden, & J. Barnes, 173 (1993)
+* Tody, D., [IRAF in the
+  Nineties](https://iraf-community.github.io/doc/iraf92.pdf), in
+  Astronomical Data Analysis Software and Systems II,
+  A.S.P. Conference Ser., Vol 52, eds. R.J. Hanisch,
+  R.J.V. Brissenden, & J. Barnes, 173 (1993)
   ([ADS](https://adsabs.harvard.edu/abs/1993ASPC...52..173T))
   
