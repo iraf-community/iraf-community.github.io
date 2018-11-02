@@ -2,6 +2,8 @@
 title: IRAF 2.16.1+ Installation Instructions
 ---
 
+[![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
+
 # Installation Instructions
 
 ## Distribution Files
