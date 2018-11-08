@@ -20,6 +20,15 @@ the package despite (or because) of its age, the
 maintaining IRAF and integrating the available patches into the source
 code.
 
+## Warning
+
+Please aware the IRAF is 30 years old legacy code and institutional
+support for IRAF and its usage is going away quickly. It is
+recommended to search alternative solutions, for example in the
+[Astropy](https://astropy.org) community, and not to start new
+projects using IRAF. See [this
+article](http://www.stsci.edu/news/newsletters/pagecontent/institute-newsletters/volume-35---issue-03/removing-the-institutes-dependence-on-iraf-you-can-do-it-too.html)
+in the STScI newsletter for rationale and recommendations.
 
 ## Contributing Code, Documentation, or Feedback
 
