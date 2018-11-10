@@ -30,20 +30,16 @@ sources include:
   
    - Linux systems crashed with "Out of memory" (13 year old bug;
      [2.12 release notes](https://github.com/iraf-community/iraf/blob/9590f4/doc/notes.v212#L1065-L1075))
-   
    - `noao.digiphot.photcal.fitparams` failed with a segmentation
      fault on 64-bit systems
-     ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
-   
+     ([iraf.net#1467834](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
    - The system wide IRAF installation changed the permissions of
      `/tmp/`, creating a major security hole in the system
-     (https://iraf-community.github.io/iraf-v216/issues/23)
-   
+     ([iraf-v216#23](https://iraf-community.github.io/iraf-v216/issues/23))
    - On Linux systems, self-compiled tasks gave wrong results
-     ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
-   
+     ([iraf.net#1467841](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
    - On modern systems, background execution did not work
-     ([iraf.net](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
+     ([iraf.net#1467431](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
 
 * __Fixes to build and run IRAF on non-historic platforms__
 
@@ -66,7 +62,7 @@ sources include:
 * __IRAF ported to other architectures__
 
     IRAF is now ported to a number of little endian architectures
-    (ARM, PowerPC, MIPS, x32) and operating systems (GNU Hurd and
+    (ARM, PowerPC, MIPS, x32, RISC-V64) and operating systems (GNU Hurd and
     FreeBSD).
 
 * __Simple CI test framework added__
@@ -81,8 +77,6 @@ This list shows all pull requests that were merged since 2.16.1.
 
 ### Since 2.16.1+2018.06.15
 
-* Distribute x86_64 binaries for Linux and macos
-  ([#49](https://github.com/iraf-community/iraf/pull/49))
 * Add riscv64 support
   ([#72](https://github.com/iraf-community/iraf/pull/72))
 * Fix buffer length in `urlget.x`
