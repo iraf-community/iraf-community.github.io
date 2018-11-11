@@ -18,10 +18,9 @@ and in the file name.
 
 ## System Requirements and Dependencies
 
-The distributed binaries require the readline or libedit, curl, and
-expat libraries to be installed. For full functionality and for
-installation from source, additionally the C compiler, the make
-program, flex, and the development versions are required.
+For full functionality and for installation from source, additionally
+the C compiler, the make program, flex, and the development versions
+are required.
 
 On Debian and its derivatives (Ubuntu, Mint, Devuan, Raspbian etc.):
 
@@ -39,35 +38,6 @@ source. If you haven't, you can install them with:
     $ xcode-select --install
 
 Click "Install" to download and install Xcode Command Line Tools.
-
-
-## Install a Binary Distribution
-
-The binary distribution file is built as a tarball of the toplevel
-IRAF directory, i.e. they should be unpacked in a directory the user
-creates. Thus, distribution files can be unpacked with the command
-
-    $ mkdir iraf.v2161
-    $ cd iraf.v2161
-    $ tar xzf /<path>/iraf.<arch>.tar.gz
-
-To install IRAF for personal use, execute the install script:
-
-    $ ./install
-
-Answer the prompts, in most cases simply accepting the defaults will
-be all that is needed.
-
-To install IRAF as root for system wide use, execute the install
-script with root permissions:
-
-    $ sudo ./install --system
-
-This will create a system installation of IRAF for all users of the
-machine.  Root permissions are required in order to write to system
-directories.
-
-IRAF is then immediately available by typing `cl`.
 
 
 ## Build from Sources
@@ -93,7 +63,7 @@ and build:
 
 For `<arch>`, use the proper IRAF architecture name:
 
-`<arch>`   | Operating system | CPU
+`<arch>`   | Operating system | Supported CPU types
 -----------|------------------|---------------------------------------
 `linux64`  | Linux 64 bit     | x86_64, arm64, mips64, ppc64, riscv64
 `linux`    | Linux 32 bit     | i386, x32, arm, mips
