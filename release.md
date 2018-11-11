@@ -10,7 +10,7 @@ The IRAF v2.16.1 snapshots are available from github at
 
 [https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
 
-The latest official IRAF release is 2.16.1 from March 2012. Our releases are
+The latest official IRAF release is 2.16.1 from October 2013. Our releases are
 snapshots based on the latest available source code. The snapshots are tagged
 with their release date in the version number. Changes to the original 2.16.1
 sources include:
