@@ -14,7 +14,7 @@ software was written by the National Optical Astronomy Observatories
 IRAF is discontinued since 2013. The latest NOAO release had a large
 number of problems, including major license issues and security bugs.
 
-To keep the software away from bitrotting, and to fix bugs that are in
+To prevent the software from bitrotting, and to fix bugs that are in
 the package despite (or because) of its age, the
 [iraf-community](https://github.com/iraf-community/) works on
 maintaining IRAF and integrating the available patches into the source
@@ -22,7 +22,7 @@ code.
 
 ## Warning
 
-Please aware the IRAF is 30 years old legacy code and institutional
+Please aware the IRAF is 35 years old legacy code and institutional
 support for IRAF and its usage is going away quickly. It is
 recommended to search alternative solutions, for example in the
 [Astropy](https://astropy.org) community, and not to start new
