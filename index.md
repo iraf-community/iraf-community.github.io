@@ -27,7 +27,7 @@ support for IRAF and its usage is going away quickly. It is
 recommended to search alternative solutions, for example in the
 [Astropy](https://astropy.org) community, and not to start new
 projects using IRAF. See [this
-article](http://www.stsci.edu/news/newsletters/pagecontent/institute-newsletters/volume-35---issue-03/removing-the-institutes-dependence-on-iraf-you-can-do-it-too.html)
+article](http://www.stsci.edu/news/newsletters/pagecontent/institute-newsletters/2018-volume-35-issue-03/removing-the-institutes-dependence-on-iraf-you-can-do-it-too)
 in the STScI newsletter for rationale and recommendations.
 
 ## Contributing Code, Documentation, or Feedback
