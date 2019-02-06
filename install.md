@@ -85,7 +85,7 @@ For `<arch>`, use the proper IRAF architecture name:
 
 `<arch>`   | Operating system | Supported CPU types
 -----------|------------------|---------------------------------------
-`linux64`  | Linux 64 bit     | x86_64, arm64, mips64, ppc64, riscv64
+`linux64`  | Linux 64 bit     | x86_64, arm64, mips64, ppc64, riscv64, alpha
 `linux`    | Linux 32 bit     | i386, x32, arm, mips
 `macintel` | Mac OS X 64 bit  | x86_64
 `macosx`   | Mac OS X 32 bit  | i386
