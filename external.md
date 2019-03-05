@@ -32,5 +32,6 @@ iraf-community organization on github:
 * [ctio](https://github.com/iraf-community/ctio) -
   CTIO tools
 
-Please note that the repositories only contain the source code and
-often did not receive an update yet.
+Please note that the repositories only contain the source code and often did
+not receive an update yet. If there are more packages that should be
+maintained in the repositories please contact us to get them included.
