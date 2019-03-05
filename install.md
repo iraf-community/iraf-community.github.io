@@ -6,6 +6,18 @@ title: IRAF 2.16.1+ Installation Instructions
 
 # Installation Instructions
 
+## Binary packages
+
+On some systems, IRAF can be directly installed from the package
+repositories:
+
+ * Ubuntu 18.04 LTS and later,
+ * Debian 10 "Buster",
+ * Mageia 6.1.
+
+Packages for Fedora are currently in preparation. Please contact us if
+you want to help packaging for macOS or other Linux versions.
+
 ## Distribution Files
 
 The IRAF v2.16.1 snapshots are available from github at
