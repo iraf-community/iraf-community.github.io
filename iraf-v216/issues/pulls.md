@@ -5,7 +5,7 @@ title: Old iraf.net pull requests
 [Issues (50)](https://iraf-community.github.io/iraf-v216/issues) · [Pull requests (81)](https://iraf-community.github.io/iraf-v216/issues/pulls)
 
 # Old iraf.net pull requests
-This is a list of pull requests in the old [iraf.net](https://github.com/iraf) github repository `iraf-v216`, which was removed in October 2018
+This is a list of pull requests in the old [iraf.net](https://github.com/iraf) github repository `iraf-v216`, which was removed in October 2018. These pull requests are merged into the IRAF community distribution.
 
 * [**Update cfitsio to 3.430**](https://iraf-community.github.io/iraf-v216/issues/135)  
    #135 opened on 2018-02-10 by [olebole](https://github.com/olebole) (open)
