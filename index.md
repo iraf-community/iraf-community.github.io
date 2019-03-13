@@ -38,6 +38,8 @@ to create a new issue on the
 [IRAF GitHub issue](https://github.com/iraf-community/iraf/issues) page.
 To contribute patches, we suggest to create a
 [pull request on GitHub](https://github.com/iraf-community/iraf/pulls).
+Another way to contribute is to package IRAF for your favourite operating
+system and distribution.
 
 
 ## Citation
