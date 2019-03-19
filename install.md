@@ -12,7 +12,7 @@ On some systems, IRAF can be directly installed from the package
 repositories:
 
  * Ubuntu 18.04 LTS and later,
- * Debian 10 "Buster",
+ * Debian 10 "Buster" (also in Debian 9 "Stretch" [backports](https://backports.debian.org/)),
  * Mageia 6.1.
 
 Packages for Fedora are currently in preparation. Please contact us if
