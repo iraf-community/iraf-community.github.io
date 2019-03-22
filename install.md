@@ -4,9 +4,7 @@ title: IRAF 2.16.1+ Installation Instructions
 
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
 
-# Installation Instructions
-
-## Binary packages
+# Binary packages
 
 On some systems, IRAF can be directly installed from the package
 repositories:
@@ -17,6 +15,8 @@ repositories:
 
 Packages for Fedora are currently in preparation. Please contact us if
 you want to help packaging for macOS or other Linux versions.
+
+# Installation from source
 
 ## Distribution Files
 
@@ -30,9 +30,7 @@ and in the file name.
 
 ## System Requirements and Dependencies
 
-For full functionality and for installation from source, additionally
-the C compiler, the make program, flex, and the development versions
-are required.
+Additionally to the tar file, a C compiler, the "make" program, flex, and some development packages are required.
 
 On Debian and its derivatives (Ubuntu, Mint, Devuan, Raspbian etc.):
 
@@ -52,7 +50,7 @@ source. If you haven't, you can install them with:
 Click "Install" to download and install Xcode Command Line Tools.
 
 
-## Build from Sources
+## Compile the Sources
 
 The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
