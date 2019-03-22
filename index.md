@@ -22,7 +22,7 @@ code.
 
 ## Warning
 
-Please aware the IRAF is 35 years old legacy code and institutional
+Please be aware the IRAF is 35 years old legacy code and institutional
 support for IRAF and its usage is going away quickly. It is
 recommended to search alternative solutions, for example in the
 [Astropy](https://astropy.org) community, and not to start new
