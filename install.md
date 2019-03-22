@@ -56,8 +56,8 @@ The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-    $ tar zxf /<path>/iraf-2.16.1-2018.06.15.tar.gz
-    $ cd iraf-2.16.1-2018.06.15/
+    $ tar zxf /<path>/iraf-2.16.1-2018.11.01.tar.gz
+    $ cd iraf-2.16.1-2018.11.01/
 
 In the source directory, execute the install script to create needed
 links:
