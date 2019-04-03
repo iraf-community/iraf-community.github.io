@@ -17,10 +17,10 @@ sources include:
 
 * __All known non-free code removed__
 
-    Although IRAF 2.16.1 was claimed to be "free software", it contained
-    source code that is not freely distributable; namely code copied from the
-    book ["Numerical Recipes in Fortran"](http://numerical.recipes/). This
-    code is replaced with free equivalents. The IRAF community edition is
+    Although IRAF 2.16.1 was claimed to be "free software", [it contained
+    source code that is not freely distributable](iraf-v216/license-problems);
+    namely code copied from the book ["Numerical Recipes in Fortran"](http://numerical.recipes/).
+    This code is replaced with free equivalents. The IRAF community edition is
     [Open Source](https://opensource.org/docs/osd), and as such included in
     Debian.
 
