@@ -30,7 +30,7 @@ iraf-community organization on github:
 * [adccdrom](https://github.com/iraf-community/adccdrom) -
   Astronomical Data Center (ADC) CD-ROM tools
 * [ctio](https://github.com/iraf-community/ctio) -
-  CTIO tools
+  Tools for the Cerro Tololo Inter-American Observatory
 
 Please note that the repositories only contain the source code and often did
 not receive an update yet. If there are more packages that should be
