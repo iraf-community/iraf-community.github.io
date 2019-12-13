@@ -6,19 +6,20 @@ title: The repository iraf/iraf-v216
 
 # The repository iraf/iraf-v216
 iraf/iraf-v216 was a Github repository published by the
-[@iraf](https://github.com/iraf) user between April 2017 and October 2018.
-The repository contained the slightly updated sources from the
-version 2.16.1, and is still [available in the iraf-community
+[@iraf](https://github.com/iraf) user between April 2017 and
+October 2018.  The repository contained the slightly updated sources
+from the version 2.16.1, and is still available as the [`iraf-v216`
+branch in the iraf-community
 repository](https://github.com/iraf-community/iraf/tree/iraf-v216). Several
-[issues](issues/) and [pull requests](issues/pulls) were created
-during that time, but never merged into the iraf-v216 repository.
+issues and pull requests were created during that time, but never
+merged into the iraf-v216 repository.
 
 In April 2018 the Github repository was set readonly, so that no more
 issues and pull requests could be opened or handled otherwise. In
-October 2018, the iraf-v216 repository was removed. The
-iraf-community web site keeps a readonly backup of the issues and pull
-requests for reference, and the [iraf-community Github
+October 2018, the iraf-v216 repository was removed. The iraf-community
+web site keeps a readonly backup of the [issues](issues/) and [pull
+requests](issues/pulls) for reference, and the [iraf-community Github
 repository](https://github.com/iraf-community/iraf) is built on top of
 the iraf/iraf-v216 repository. Most of the pull requests are merged
-into the iraf-community repository. See the [Release notes](/release) for a
-complete list.
+into the iraf-community repository. See the [Release notes](/release)
+for a complete list.
