@@ -134,7 +134,7 @@ This list shows all pull requests that were merged since 2.16.1.
 ### Since 2.16.1+2018.02.04
 
 (Pull Requests from
-[iraf/iraf-v216](iraf-v216/issues/pulls))
+[iraf/iraf-v216](iraf-v216))
 
 * Update cfitsio to 3.430
   ([#135](iraf-v216/issues/135))
@@ -146,7 +146,7 @@ This list shows all pull requests that were merged since 2.16.1.
 ### Since 2.16.1+2017.12.28
 
 (Pull Requests from
-[iraf/iraf-v216](iraf-v216/issues/pulls))
+[iraf/iraf-v216](iraf-v216))
 
 * Make photcal 64-bit capable
   ([#130](iraf-v216/issues/130))
@@ -156,7 +156,7 @@ This list shows all pull requests that were merged since 2.16.1.
 ### Since 2.16.1
 
 (Pull Requests from
-[iraf/iraf-v216](iraf-v216/issues/pulls))
+[iraf/iraf-v216](iraf-v216))
 
 * Check filepointer for `NULL` in `envinit` before trying to close.
   ([#126](iraf-v216/issues/126))
