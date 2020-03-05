@@ -32,14 +32,14 @@ sources include:
      [2.12 release notes](https://github.com/iraf-community/iraf/blob/9590f4/doc/notes.v212#L1065-L1075))
    - `noao.digiphot.photcal.fitparams` failed with a segmentation
      fault on 64-bit systems
-     ([iraf.net#1467834](http://iraf.net/forum/viewtopic.php?showtopic=1467834))
+     ([iraf.net#1467834](https://iraf.net/forum/viewtopic.php?showtopic=1467834))
    - The system wide IRAF installation changed the permissions of
      `/tmp/`, creating a major security hole in the system
      ([iraf-v216#23](https://iraf-community.github.io/iraf-v216/issues/23))
    - On Linux systems, self-compiled tasks gave wrong results
-     ([iraf.net#1467841](http://iraf.net/forum/viewtopic.php?showtopic=1467841))
+     ([iraf.net#1467841](https://iraf.net/forum/viewtopic.php?showtopic=1467841))
    - On modern systems, background execution did not work
-     ([iraf.net#1467431](http://iraf.net/forum/viewtopic.php?showtopic=1467431))
+     ([iraf.net#1467431](https://iraf.net/forum/viewtopic.php?showtopic=1467431))
 
 * __Fixes to build and run IRAF on non-historic platforms__
 

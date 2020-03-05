@@ -11,7 +11,7 @@ Up to version 2.16.1 (released 2013), IRAF contains a number of routines adopted
 >* You want to translate some (or all) the Numerical Recipes routines to a different computer language, and then redistribute the resulting translations.
 >     -  [...] However, you can't redistribute the translations in any manner, since they are "derivative works" and still subject to our copyright.
 
-It [seems](http://iraf.net/forum/viewtopic.php?forum=4&showtopic=1468264) that IRAF was allowed to "use" this code as long as the following lines are included:
+It [seems](https://iraf.net/forum/viewtopic.php?forum=4&showtopic=1468264) that IRAF was allowed to "use" this code as long as the following lines are included:
 ```
 # Based on Numerical Recipes by Press, Flannery, Teukolsky, and Vetterling.
 # Used by permission of the authors.
