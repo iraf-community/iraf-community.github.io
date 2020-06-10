@@ -109,12 +109,17 @@ This will also install the manpages to `/usr/local/man/` und the
 terminfo file for xgterm to `/usr/share/terminfo/`.
 
 
-## Other programs
+## Other included programs
 
-Both XGterm and XImtool rely upon the IRAF Object Manager for the GUI.  The
-**guidemo** package illustrates how to use GUIs in IRAF applications. The
-**obmsh** package provides a simple shell for the object manager.
+The sources include a few more programs that are out of interest for
+the normal user:
 
-**XTapemon** is a conventional Xt/Athena application which allows the status
-of an IRAF tape job to be monitored continuously while the tape is being
-accessed.
+ * The **guidemo** package illustrates how to use GUIs in IRAF applications.
+
+ * The **obmsh** package provides a simple shell for the IRAF Object Manager.
+
+ * **XTapemon** is a conventional Xt/Athena application which allows the status
+   of an IRAF tape job to be monitored continuously while the tape is being
+   accessed.
+
+These programs are not built by default.
