@@ -29,7 +29,12 @@ provides the following programs:
    about either axis, frame blink, windowing of the display, and colortable
    enhancement.
 
-Manual pages are included for both utilities.
+The source code if x11iraf is mostly Open Source conform to the Open Source
+Definition by the [Open Source Initiative](https://opensource.org/osd). 
+The list of files that are not conform is documented in the file
+[`LICENSES-nonfree`](https://github.com/iraf-community/x11iraf/blob/master/LICENSES-nonfree)
+of the source package. Note that x11iraf can be built without using these
+files.
 
 
 ## Contributing
@@ -91,8 +96,12 @@ In the source directory, type `make`:
 
 This will automatically compile all sources and create the executables
 `xgterm/xgterm` and `ximtool/ximtool`, and the helper
-`ximtool/clients/ism_wcspix.e`. To copy them to `/usr/local/bin`, execute as
-root
+`ximtool/clients/ism_wcspix.e`. The compilation can be tuned by
+setting `CFLAGS` and `LDFLAGS`. If the environment variable
+`OSI_COMPLIANT` is set to `YES`, the build uses only source files that
+are Open Source according.
+
+To copy the executables to `/usr/local/bin`, execute as root
 
     # make install
 
