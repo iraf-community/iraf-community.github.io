@@ -49,6 +49,16 @@ GitHub](https://github.com/iraf-community/x11iraf/pulls).
 
 ## Installation
 
+### Distribution Files
+
+The X11IRAF snapshots are available from github at
+
+[https://github.com/iraf-community/x11iraf/releases/latest/](https://github.com/iraf-community/x11iraf/releases/latest/)
+
+The snapshot has the release date as a suffix in the version number
+and in the file name.
+
+
 ### System Requirements and Dependencies
 
 Besides a normal development environment (C compiler, make, lex, yacc), the
@@ -78,8 +88,6 @@ installation. Make sure that the `xc` compiler works and can be found in the
 
 ### Unpack the Source Tarball
 
-The latest version of the sources can be downloaded [from the releases
-page](https://github.com/iraf-community/x11iraf/releases/latest).
 The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
