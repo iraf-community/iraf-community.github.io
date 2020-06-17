@@ -107,7 +107,7 @@ This will automatically compile all sources and create the executables
 `ximtool/clients/ism_wcspix.e`. The compilation can be tuned by
 setting `CFLAGS` and `LDFLAGS`. If the environment variable
 `OSI_COMPLIANT` is set to `YES`, the build uses only source files that
-are Open Source according.
+are Open Source.
 
 To copy the executables to `/usr/local/bin`, execute as root
 
