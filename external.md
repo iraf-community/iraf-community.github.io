@@ -7,29 +7,29 @@ title: External packages
 Several external packages are maintained in repositories within the
 iraf-community organization on github:
 
-* [fitsutil](https://github.com/iraf-community/fitsutil) -
+* [fitsutil](https://github.com/iraf-community/iraf-fitsutil) -
   Utilities for single and multiple FITS files
-* [sptable](https://github.com/iraf-community/sptable) -
+* [sptable](https://github.com/iraf-community/iraf-sptable) -
   IRAF package for tabular spectra
-* [mscred](https://github.com/iraf-community/mscred) -
+* [mscred](https://github.com/iraf-community/iraf-mscred) -
   Mosaic CCD reduction package
-* [nfextern](https://github.com/iraf-community/nfextern) -
+* [nfextern](https://github.com/iraf-community/iraf-nfextern) -
   General IR reductions/NEWFIRM package 
-* [vo](https://github.com/iraf-community/vo) -
+* [vo](https://github.com/iraf-community/iraf-vo) -
   Virtual Observatory package and vocl from the original v2.16.1 release
-* [mscdb](https://github.com/iraf-community/mscdb) -
+* [mscdb](https://github.com/iraf-community/iraf-mscdb) -
   MSCRED support files
-* [xdimsum](https://github.com/iraf-community/xdimsum) -
+* [xdimsum](https://github.com/iraf-community/iraf-xdimsum) -
   IR reductions
-* [ucsclris](https://github.com/iraf-community/ucsclris) -
+* [ucsclris](https://github.com/iraf-community/iraf-ucsclris) -
   UCSC LRIS mask making
-* [guiapps](https://github.com/iraf-community/guiapps) -
+* [guiapps](https://github.com/iraf-community/iraf-guiapps) -
   Prototype GUI application 
-* [deitab](https://github.com/iraf-community/deitab) -
+* [deitab](https://github.com/iraf-community/iraf-deitab) -
   DEIMOS tables package 
-* [adccdrom](https://github.com/iraf-community/adccdrom) -
+* [adccdrom](https://github.com/iraf-community/iraf-adccdrom) -
   Astronomical Data Center (ADC) CD-ROM tools
-* [ctio](https://github.com/iraf-community/ctio) -
+* [ctio](https://github.com/iraf-community/iraf-ctio) -
   Tools for the Cerro Tololo Inter-American Observatory
 
 Please note that the repositories only contain the source code and often did
