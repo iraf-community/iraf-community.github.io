@@ -39,7 +39,7 @@ files.
 
 ## Contributing
 
-The x11iraf package is developed on
+The x11iraf package is maintained on
 [Github](https://github.com/iraf-community/x11iraf). The preferred way
 to report a bug is to create a new issue on the [x11iraf GitHub
 issue](https://github.com/iraf-community/x11iraf/issues) page.  To
