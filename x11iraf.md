@@ -114,7 +114,9 @@ To copy the executables to `/usr/local/bin`, execute as root
     # make install
 
 This will also install the manpages to `/usr/local/man/` und the
-terminfo file for xgterm to `/usr/share/terminfo/`.
+required terminfo file for xgterm to `/usr/share/terminfo/`. If you
+don't want to invoke `make install`, you should make sure to run
+`tic xgterm/xgterm.terminfo` to compile and install the terminfo file.
 
 
 ## Other included programs
