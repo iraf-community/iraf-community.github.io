@@ -49,6 +49,20 @@ GitHub](https://github.com/iraf-community/x11iraf/pulls).
 
 ## Installation
 
+On some systems, x11iraf can be directly installed from the package
+repositories:
+
+ * Ubuntu 19.10 "Eoan Ermine",
+
+ * Debian 11 "Bullseye" (also in Debian 10 "Buster"
+   [backports](https://backports.debian.org/)),
+
+ * Mageia 4 and later
+
+Packages for Arch Linux are currently in preparation. Please contact us if
+you want to help packaging for macOS or other Linux versions.
+
+
 ### Distribution Files
 
 The X11IRAF snapshots are available from github at
