@@ -47,9 +47,10 @@ The STScI has developed a number of popular external packages for IRAF:
   Facility
 
 Due to license restrictions (mainly the use of Numerical Recipes code)
-the source of these packages is not available anymore. They are also
+the available source of these packages is not complete. They are also
 not ported to 64 bit. As STScI is transitioning away from IRAF, this
-is unlikely to change in the future.
+is unlikely to change in the future. For reference, the free portion
+is stored in a [Git repository](https://github.com/iraf-community/stsdas).
 
 Parts of the TABLES package are however included as NTTOOLS package in
 the IRAF core.
