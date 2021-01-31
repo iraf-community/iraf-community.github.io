@@ -69,7 +69,7 @@ sources include:
 
     The tests are defined and documented in
     [MarkDown](https://github.com/iraf-community/iraf/blob/master/test/README.md)
-    files. Tests are run on Travis CI on Linux and MacOS X platforms.
+    files. Tests are run with Github Actions on Linux and MacOS X platforms.
 
 ## Detailed list of changes
 
