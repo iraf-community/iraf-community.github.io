@@ -38,7 +38,7 @@ IRAF has the following copyright information:
 
 Copyright information of source code that is included in IRAF can be
 found in the subdirectory
-[`doc/LICENSES`](https://github.com/iraf-community/iraf/tree/master/doc/LICENSES)
+[`doc/LICENSES`](https://github.com/iraf-community/iraf/tree/main/doc/LICENSES)
 of the IRAF source code.
 
 The last NOAO versions of IRAF had licensing problems with non-free

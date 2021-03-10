@@ -104,5 +104,5 @@ works fine.  To execute the tests, run:
 
     $ ./test/run_tests
 
-The details of the tests are described [here](https://github.com/iraf-community/iraf/blob/master/test/README.md)
+The details of the tests are described [here](https://github.com/iraf-community/iraf/blob/main/test/README.md)
 
