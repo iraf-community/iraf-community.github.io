@@ -34,13 +34,13 @@ Additionally to the tar file, a C compiler, the "make" program, flex, and some d
 
 On Debian and its derivatives (Ubuntu, Mint, Devuan, Raspbian etc.):
 
-    $ sudo apt install libcurl4-openssl-dev libexpat-dev libreadline-dev
     $ sudo apt install gcc make flex
+    $ sudo apt install libcurl4-openssl-dev libexpat-dev libreadline-dev
 
 On Fedora and its derivatives (Redhat, Scientific Linux etc.)
 
-    $ sudo dnf install libcurl-devel expat-devel readline-devel
     $ sudo dnf install gcc make perl flex
+    $ sudo dnf install libcurl-devel expat-devel readline-devel
 
 On MacOS X, you need to have the XCode tools installed to build from
 source. If you haven't, you can install them with:
@@ -85,10 +85,11 @@ For `<arch>`, use the proper IRAF architecture name:
 
 `<arch>`   | Operating system | Supported CPU types
 -----------|------------------|---------------------------------------
-`linux64`  | Linux 64 bit     | x86_64, arm64, mips64, ppc64, riscv64
+`linux64`  | Linux 64 bit     | x86_64, arm64, mips64, ppc64, riscv64, alpha
 `linux`    | Linux 32 bit     | i386, x32, arm, mips
-`macintel` | Mac OS X 64 bit  | x86_64
-`macosx`   | Mac OS X 32 bit  | i386
+`macos64`  | macOS 64 bit     | arm64
+`macintel` | macOS 64 bit     | x86_64
+`macosx`   | macOS 32 bit     | i386
 `freebsd64`| FreeBSD 64 bit   | x86_64
 `freebsd`  | FreeBSD 32 bit   | i386, arm
 `hurd`     | GNU HURD 32 bit  | i386
