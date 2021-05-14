@@ -34,13 +34,13 @@ Additionally to the tar file, a C compiler, the "make" program, flex, and some d
 
 On Debian and its derivatives (Ubuntu, Mint, Devuan, Raspbian etc.):
 
-    $ sudo apt install libcurl4-openssl-dev libexpat-dev libreadline-dev
     $ sudo apt install gcc make flex
+    $ sudo apt install libcurl4-openssl-dev libexpat-dev libreadline-dev
 
 On Fedora and its derivatives (Redhat, Scientific Linux etc.)
 
-    $ sudo dnf install libcurl-devel expat-devel readline-devel
     $ sudo dnf install gcc make perl flex
+    $ sudo dnf install libcurl-devel expat-devel readline-devel
 
 On MacOS X, you need to have the XCode tools installed to build from
 source. If you haven't, you can install them with:
