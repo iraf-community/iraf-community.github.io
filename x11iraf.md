@@ -86,8 +86,8 @@ On Debian and its derivatives (Ubuntu, Mint, Devuan, Raspbian etc.):
     $ sudo apt install libxaw7-dev libxmu-dev xaw3dg-dev libxpm-dev
     $ sudo apt install iraf-dev
 
-On MacOS X, you need to have the XCode tools installed. If you
-haven't, you can install them with:
+On MacOS X (both Intel and ARM systems work), you need to have the
+XCode tools installed. If you haven't, you can install them with:
 
     $ xcode-select --install
 
