@@ -1,19 +1,20 @@
 ---
-title: IRAF 2.16.1+ Release notes
+title: IRAF 2.17 Release notes
 ---
 
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
 
 ## Release notes
 
-The current IRAF snapshot is available from github at
+The current IRAF version is available from github at
 
 [https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
 
-The latest official IRAF release is 2.16.1 from October 2013. Our releases are
-snapshots based on that latest available source code. The snapshots are tagged
-with their release date in the version number. Changes to the original 2.16.1
-sources include:
+The latest official IRAF release was 2.16.1 from October
+2013. Intermediate releases were snapshots based on that latest
+available source code. These snapshots were tagged with their release
+date in the version number. Changes to the original 2.16.1 sources
+include:
 
 * __All known non-free code removed__
 

@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.16.1+ Installation Instructions
+title: IRAF 2.17 Installation Instructions
 ---
 
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
@@ -20,12 +20,9 @@ you want to help packaging for macOS or other Linux versions.
 
 ## Distribution Files
 
-The IRAF v2.16.1 snapshots are available from github at
+IRAF v2.17 is available from github at
 
 [https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
-
-The snapshot has the release date as a suffix in the version number
-and in the file name.
 
 
 ## System Requirements and Dependencies
@@ -56,8 +53,8 @@ The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-    $ tar zxf /<path>/iraf-2.16.1-2021.06.14.tar.gz
-    $ cd iraf-2.16.1-2021.06.14/
+    $ tar zxf /<path>/iraf-2.17.tar.gz
+    $ cd iraf-2.17/
 
 In the source directory, execute the install script to create needed
 links:
