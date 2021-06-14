@@ -52,7 +52,7 @@ GitHub](https://github.com/iraf-community/x11iraf/pulls).
 On some systems, x11iraf can be directly installed from the package
 repositories:
 
- * Ubuntu 19.10 "Eoan Ermine",
+ * Ubuntu 19.10 "Eoan Ermine" and later,
 
  * Debian 11 "Bullseye" (also in Debian 10 "Buster"
    [backports](https://backports.debian.org/)),
@@ -65,12 +65,9 @@ you want to help packaging for macOS or other Linux versions.
 
 ### Distribution Files
 
-The X11IRAF snapshots are available from github at
+The X11IRAF sources are available from github at
 
 [https://github.com/iraf-community/x11iraf/releases/latest/](https://github.com/iraf-community/x11iraf/releases/latest/)
-
-The snapshot has the release date as a suffix in the version number
-and in the file name.
 
 
 ### System Requirements and Dependencies
@@ -106,8 +103,8 @@ The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-    $ tar xzf /<path>/x11iraf-2.0+2020.06.15.tar.gz
-    $ cd x11iraf-2.0+2020.06.15/
+    $ tar xzf /<path>/x11iraf-2.1.tar.gz
+    $ cd x11iraf-2.1/
 
 
 ### Build from Sources
