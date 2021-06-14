@@ -75,6 +75,56 @@ sources include:
 
 This list shows all pull requests that were merged since 2.16.1.
 
+### Since 2.16.1+2018.11.01
+
+ * Cleanup for unneeded and obsolete files
+   ([#166](https://github.com/iraf-community/iraf/pull/166))
+ * fix slalib bug in sla_EQEQX
+   ([#160](https://github.com/iraf-community/iraf/pull/160))
+ * Ignore existing iraf env var in ./install
+   ([#157](https://github.com/iraf-community/iraf/pull/157))
+ * Cleanup ecl and cl
+   ([#156](https://github.com/iraf-community/iraf/pull/156))
+ * Add macOS arm64 support
+   ([#131](https://github.com/iraf-community/iraf/pull/131))
+ * Replace hard-coded host$bin paths by IRAFPATH
+   ([#128](https://github.com/iraf-community/iraf/pull/128))
+ * Remove include/drvrsmem.h
+   ([#126](https://github.com/iraf-community/iraf/pull/126))
+ * Fix cpu_time calculation in unix/os/zgtime.c
+   ([#118](https://github.com/iraf-community/iraf/pull/118),
+    [#136](https://github.com/iraf-community/iraf/pull/136))
+ * Move zsvjmp assembler files to unix/os and merge them
+   ([#117](https://github.com/iraf-community/iraf/pull/117))
+ * Use PLT when calling sigsetjmp on i386
+   ([#116](https://github.com/iraf-community/iraf/pull/116))
+ * Adjust external licenses
+   ([#115](https://github.com/iraf-community/iraf/pull/115))
+ * Definitely use flex to generate `unix/generix/lexyy.c`
+   ([#112](https://github.com/iraf-community/iraf/pull/112))
+ * Avoid multiple definition of `errflag`
+   ([#111](https://github.com/iraf-community/iraf/pull/111))
+ * Enable the use of Public Domain Ratfor to process `.r` files
+   ([#103](https://github.com/iraf-community/iraf/pull/103))
+ * Remove some C compiler warnings
+   ([#97](https://github.com/iraf-community/iraf/pull/97))
+ * Fix non-working fft841 code by replacing it
+   ([#95](https://github.com/iraf-community/iraf/pull/95))
+ * Add LAPACK license
+   ([#88](https://github.com/iraf-community/iraf/pull/88))
+ * Rename `mkfloat.sh` to `mkfloat`
+   ([#87](https://github.com/iraf-community/iraf/pull/87))
+ * Add support for the DEC Alpha processor
+   ([#79](https://github.com/iraf-community/iraf/pull/79))
+ * Fix and improve the shell scripts
+   ([#75](https://github.com/iraf-community/iraf/pull/75),
+    [#76](https://github.com/iraf-community/iraf/pull/76),
+    [#77](https://github.com/iraf-community/iraf/pull/77),
+    [#85](https://github.com/iraf-community/iraf/pull/85),
+    [#86](https://github.com/iraf-community/iraf/pull/86),
+    [#113](https://github.com/iraf-community/iraf/pull/113))
+
+
 ### Since 2.16.1+2018.06.15
 
 * Add riscv64 support
