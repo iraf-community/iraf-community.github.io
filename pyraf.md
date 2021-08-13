@@ -31,3 +31,8 @@ GitHub](https://github.com/iraf-community/pyraf/pulls).
 On some systems (Ubuntu, Debian, Mageia), PyRAF can be installed directly from
 the packages repositories. It is also available for the installation from
 [PyPI](https://pypi.org/project/pyraf/) for other systems.
+
+## Documentation
+
+* Richard L. White & Perry Greenfield: [The PyRAF Tutorial](doc/pyraf_tutorial.pdf)
+  (2002)
