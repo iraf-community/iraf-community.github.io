@@ -52,12 +52,12 @@ as references for IRAF in a publication:
   System](https://iraf-community.github.io/doc/iraf.pdf), in
   Proc. SPIE Instrumentation in Astronomy VI, ed. D.L. Crawford, 627,
   733 (1986)
-  ([ADS](https://adsabs.harvard.edu/abs/1986SPIE..627..733T))
+  ([ADS:1986SPIE..627..733T](https://ui.adsabs.harvard.edu/abs/1986SPIE..627..733T))
   
 * Tody, D., [IRAF in the
   Nineties](https://iraf-community.github.io/doc/iraf92.pdf), in
   Astronomical Data Analysis Software and Systems II,
   A.S.P. Conference Ser., Vol 52, eds. R.J. Hanisch,
   R.J.V. Brissenden, & J. Barnes, 173 (1993)
-  ([ADS](https://adsabs.harvard.edu/abs/1993ASPC...52..173T))
+  ([ADS:1993ASPC...52..173T](https://ui.adsabs.harvard.edu/abs/1993ASPC...52..173T))
   
