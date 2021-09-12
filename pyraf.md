@@ -29,9 +29,31 @@ GitHub](https://github.com/iraf-community/pyraf/pulls).
 
 ## Installation
 
-On some systems (Ubuntu, Debian, Mageia), PyRAF can be installed directly from
-the packages repositories. It is also available for the installation from
-[PyPI](https://pypi.org/project/pyraf/) for other systems.
+To install PyRAF, it is required to have both IRAF and
+[Python](https://www.python.org) already installed. Both a
+self-compiled and a binary IRAF package (f.e. in
+[Ubuntu](https://www.ubuntu.com)) will work.
+
+The IRAF installation should have a properly configured environment,
+especially the `iraf` environment variable must be set to point to
+the IRAF installation directory (i.e. to `/usr/lib/iraf/` on Ubuntu
+or Debian systems). On multi-arch IRAF installations, the `IRAFARCH`
+environment variable should specify the architecture to use. This is
+usually already set during the IRAF installation procedure.
+
+The minimal Python required for PyRAF is 3.6, but it is recommended to
+use the latest available version. An installation in an virtual
+environment like [venv](https://docs.python.org/3/library/venv.html)
+or [conda](https://docs.conda.io/) is possible.
+
+On some Linux distributions, PyRAF is readily available as a binary
+package and can be installed with the package installer, like `sudo
+apt install python3-pyraf` on Debian or Ubuntu. On all other systems,
+the package can be installed via
+[PyPI](https://pypi.org/project/pyraf) with the command `pip3 install
+pyraf`. Note that if no binary installation is available on PyPI, the
+package requires a compilation, so aside from pip3, the C compiler and
+development libraries should be installed.
 
 ## Documentation
 
