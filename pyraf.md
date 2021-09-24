@@ -5,6 +5,7 @@ title: PyRAF -- Command language for IRAF based on Python
 [![ascl:1207.011](https://img.shields.io/badge/ascl-1207.011-blue.svg?colorB=262255)](http://ascl.net/1207.011)
 [![GitHub release](https://img.shields.io/github/release/iraf-community/pyraf.svg)](https://github.com/iraf-community/pyraf/releases/latest)
 [![PyRAF CI test](https://github.com/iraf-community/pyraf/actions/workflows/citest.yml/badge.svg)](https://github.com/iraf-community/pyraf/actions)
+[![Documentation Status](https://readthedocs.org/projects/pyraf/badge/?version=latest)](https://pyraf.readthedocs.io/en/latest/?badge=latest)
 
 # PyRAF
 
