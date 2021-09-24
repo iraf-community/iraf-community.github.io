@@ -29,10 +29,10 @@ GitHub](https://github.com/iraf-community/pyraf/pulls).
 
 ## Installation
 
-To install PyRAF, it is required to have both IRAF and
-[Python](https://www.python.org) already installed. Both a
-self-compiled and a binary IRAF package (f.e. in
-[Ubuntu](https://www.ubuntu.com)) will work.
+To install PyRAF, it is required to have both IRAF and [Python
+3](https://www.python.org) already installed. Both a self-compiled and
+a binary IRAF package (f.e. in [Ubuntu](https://www.ubuntu.com)) will
+work.
 
 The IRAF installation should have a properly configured environment,
 especially the `iraf` environment variable must be set to point to
@@ -57,5 +57,4 @@ development libraries should be installed.
 
 ## Documentation
 
-* Richard L. White & Perry Greenfield: [The PyRAF Tutorial](doc/pyraf_tutorial.pdf)
-  (2002)
+* [The PyRAF Tutorial](https://pyraf.readthedocs.io)
