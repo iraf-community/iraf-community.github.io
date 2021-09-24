@@ -42,6 +42,17 @@ Another way to contribute is to package IRAF for your favourite operating
 system and distribution.
 
 
+## Documentation
+
+ * [A Beginner’s Guide to Using IRAF (PDF)](doc/beguide.pdf) (1993)
+ * [Package and Task Reference](https://iraf.readthedocs.io/en/latest/tasks/index.html) (current)
+ * [SPP Reference Manual](https://iraf.readthedocs.io/en/latest/spp.html) (1983)
+ * [CL Programmer’s Manual](https://iraf.readthedocs.io/en/latest/clman.html) (1983)
+ * [IRAF Standards and Conventions](https://iraf.readthedocs.io/en/latest/std.html) (1983)
+ * [Standard Nomenclature](https://iraf.readthedocs.io/en/latest/std_gl.html) (1983)
+ * [Site Manager’s Guide](https://iraf.readthedocs.io/en/latest/unixsmg.html) (2002)
+
+
 ## Citation
 
 IRAF is listed in the Astronomical Source Code Library as
