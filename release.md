@@ -76,6 +76,26 @@ include:
 
 This list shows all pull requests that were merged since 2.16.1.
 
+### Since 2.14.1+2021.06.14
+
+* Consistently format doc/help examples
+  ([#195](https://github.com/iraf-community/iraf/pull/195))
+* Fix some HTML help output glitches
+  ([#194](https://github.com/iraf-community/iraf/pull/194))
+* Remove duplicate argument in call
+  ([#189](https://github.com/iraf-community/iraf/pull/189))
+* Revert corruption of unix/os/net/rexec.c file
+  ([#180](https://github.com/iraf-community/iraf/pull/180))
+* Force using POSIX shell in extpkg.cl script
+  ([#179](https://github.com/iraf-community/iraf/pull/179))
+* Support freeBSD variants
+  ([#174](https://github.com/iraf-community/iraf/pull/174))
+* Separate development (softools) packages
+  ([#172](https://github.com/iraf-community/iraf/pull/172))
+* Remove obsolete tasks and links to iraf.noao.edu
+  ([#170](https://github.com/iraf-community/iraf/pull/170))
+
+
 ### Since 2.16.1+2018.11.01
 
  * Cleanup for unneeded and obsolete files
@@ -94,7 +114,8 @@ This list shows all pull requests that were merged since 2.16.1.
    ([#126](https://github.com/iraf-community/iraf/pull/126))
  * Fix cpu_time calculation in unix/os/zgtime.c
    ([#118](https://github.com/iraf-community/iraf/pull/118),
-    [#136](https://github.com/iraf-community/iraf/pull/136))
+    [#136](https://github.com/iraf-community/iraf/pull/136),
+    [#173](https://github.com/iraf-community/iraf/pull/173))
  * Move zsvjmp assembler files to unix/os and merge them
    ([#117](https://github.com/iraf-community/iraf/pull/117))
  * Use PLT when calling sigsetjmp on i386
@@ -106,7 +127,8 @@ This list shows all pull requests that were merged since 2.16.1.
  * Avoid multiple definition of `errflag`
    ([#111](https://github.com/iraf-community/iraf/pull/111))
  * Enable the use of Public Domain Ratfor to process `.r` files
-   ([#103](https://github.com/iraf-community/iraf/pull/103))
+   ([#103](https://github.com/iraf-community/iraf/pull/103),
+    [#171](https://github.com/iraf-community/iraf/pull/171))
  * Remove some C compiler warnings
    ([#97](https://github.com/iraf-community/iraf/pull/97))
  * Fix non-working fft841 code by replacing it
