@@ -6,14 +6,11 @@ title: IRAF 2.17 Release notes
 
 ## Release notes
 
-The current IRAF version is available from github at
+The current IRAF version 2.17 is available from github at
 
 [https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
 
-The latest official IRAF release was 2.16.1 from October 2013.
-Intermediate releases were snapshots based on that latest available
-source code. These snapshots were tagged with their release date in
-the version number. Changes to the original 2.16.1 sources include:
+Changes to the NOAO 2.16.1 sources include:
 
 * __All known non-free code removed__
 

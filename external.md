@@ -16,7 +16,7 @@ iraf-community organization on github:
 * [nfextern](https://github.com/iraf-community/iraf-nfextern) -
   General IR reductions/NEWFIRM package 
 * [vo](https://github.com/iraf-community/iraf-vo) -
-  Virtual Observatory package and vocl from the original v2.16.1 release
+  Virtual Observatory package and vocl from the NOAO v2.16.1 release
 * [mscdb](https://github.com/iraf-community/iraf-mscdb) -
   MSCRED support files
 * [xdimsum](https://github.com/iraf-community/iraf-xdimsum) -
