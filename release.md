@@ -27,6 +27,12 @@ Changes to the NOAO 2.16.1 sources include:
     [Open Source](https://opensource.org/docs/osd), and as such included in
     Debian.
 
+* __IRAF ported to other architectures__
+
+    IRAF is now ported to a number of little endian architectures
+    (ARM, PowerPC, MIPS, x32, RISC-V64) and operating systems (GNU Hurd and
+    FreeBSD). Specifically, the Mac M1 processor is supported now.
+
 * __Major bug fixes__
 
   Many bugs of the 2.16.1 release are fixed. Some of he major ones are:
@@ -43,13 +49,15 @@ Changes to the NOAO 2.16.1 sources include:
      ([iraf.net#1467841](https://iraf.net/forum/viewtopic.php?showtopic=1467841))
    - On modern systems, background execution did not work
      ([iraf.net#1467431](https://iraf.net/forum/viewtopic.php?showtopic=1467431))
+   - The original code produced errornous executables when build on
+     Linux versions later than 2012. It also did not build from
+     scratch, but required an already compiled IRAF version.
 
-* __Fixes to build and run IRAF on non-historic platforms__
+* __Simple CI test framework added__
 
-  The original code produced errornous executables when build on Linux
-  versions later than 2012, due to some funny hacks in the IRAF
-  code. It also did not build from scratch, but required an already
-  compiled IRAF version.
+    The tests are defined and documented in
+    [MarkDown](https://github.com/iraf-community/iraf/blob/main/test/README.md)
+    files. Tests are run with Github Actions on Linux and MacOS X platforms.
 
 * __VO package and vocl removed__
 
@@ -61,18 +69,6 @@ Changes to the NOAO 2.16.1 sources include:
     Therefore, no attempt was put into getting these problems fixed,
     and the VO stuff was cut out.  The VOTable functionality, however,
     remains available
-
-* __IRAF ported to other architectures__
-
-    IRAF is now ported to a number of little endian architectures
-    (ARM, PowerPC, MIPS, x32, RISC-V64) and operating systems (GNU Hurd and
-    FreeBSD).
-
-* __Simple CI test framework added__
-
-    The tests are defined and documented in
-    [MarkDown](https://github.com/iraf-community/iraf/blob/main/test/README.md)
-    files. Tests are run with Github Actions on Linux and MacOS X platforms.
 
 ## Detailed list of changes
 
