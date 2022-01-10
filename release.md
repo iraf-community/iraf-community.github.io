@@ -25,8 +25,8 @@ Changes to the NOAO 2.16.1 sources include:
 
   Many bugs of the 2.16.1 release are fixed. Some of he major ones are:
   
-   - Linux systems crashed with "Out of memory" (13 year old bug;
-     [2.12 release notes](https://github.com/iraf-community/iraf/blob/9590f4/doc/notes.v212#L1065-L1075))
+   - Linux systems crashed with "Out of memory" 
+     ([2.12 release notes](https://github.com/iraf-community/iraf/blob/9590f4/doc/notes.v212#L1065-L1075))
    - `noao.digiphot.photcal.fitparams` failed with a segmentation
      fault on 64-bit systems
      ([iraf.net#1467834](https://iraf.net/forum/viewtopic.php?showtopic=1467834))
