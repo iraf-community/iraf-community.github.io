@@ -12,6 +12,12 @@ The current IRAF version 2.17 is available from github at
 
 Changes to the NOAO 2.16.1 sources include:
 
+* __Community maintainance__
+
+	IRAF is no longer maintained by NOAO, but by the community of
+    volunteers. Contributions of bug fixes, documentation or
+    improvements are welcome.
+
 * __All known non-free code removed__
 
     Although IRAF 2.16.1 was claimed to be "free software", [it contained
