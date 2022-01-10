@@ -72,7 +72,7 @@ Changes to the NOAO 2.16.1 sources include:
 
 This list shows all pull requests that were merged since 2.16.1.
 
-### Since 2.14.1+2021.06.14
+### Since 2.16.1+2021.06.14
 
 * Consistently format doc/help examples
   ([#195](https://github.com/iraf-community/iraf/pull/195))
