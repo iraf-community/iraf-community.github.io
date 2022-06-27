@@ -52,5 +52,6 @@ not ported to 64 bit. As STScI is transitioning away from IRAF, this
 is unlikely to change in the future. For reference, the free portion
 is stored in a [Git repository](https://github.com/iraf-community/stsdas).
 
-Parts of the TABLES package are however included as NTTOOLS package in
-the IRAF core.
+Parts of the TABLES package are however included as 
+[NTTOOLS package](https://iraf.readthedocs.io/en/latest/tasks/utilities/nttools/index.html)
+in the IRAF core.
