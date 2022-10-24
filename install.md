@@ -24,6 +24,10 @@ IRAF v2.17 is available from github at
 
 [https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
 
+To download the sources, choose the
+[tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.17.tar.gz)
+file. The zip file does not keep the symbolic links and will not work.
+
 
 ## System Requirements and Dependencies
 
