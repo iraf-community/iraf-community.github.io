@@ -4,7 +4,9 @@ title: IRAF 2.17 Release notes
 
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
 
-## Release notes
+[previous: 2.16](releases/2.16) · [index](releases/index)
+
+## IRAF 2.17 Release notes
 
 The current IRAF version 2.17 is available from github at
 
