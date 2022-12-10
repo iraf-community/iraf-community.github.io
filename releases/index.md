@@ -4,7 +4,15 @@ title: IRAF major releases
 
 # IRAF major releases
 
-* 2.5 (July 1987)
+The IRAF project started 1981 at Kitt Peak National Observatory. The
+first versions of the script language and of the programming
+environment were completed in 1982.
+
+* 2.1 (1984) *first internal release*
+* 2.2 (1985)
+* 2.3 (February 1986) *first limited public release*
+* 2.4 (Summer 1986)
+* 2.5 (July 1987) *first public release*
 * 2.6 (February 1988)
 * 2.7 (December 1988)
 * 2.8 (June 30, 1989)
@@ -12,8 +20,8 @@ title: IRAF major releases
 * 2.10 (July 1992)
 * 2.11 (August 27, 1997)
 * 2.12 (January 25, 2002)
-* 2.13 (2006)
-* 2.14 (December 1, 2007)
-* 2.15 (November 22, 2010)
-* [2.16 (March 22, 2012)](2.16)
-* [2.17 (January 4, 2022)](/release)
+* 2.13 (2006) *inofficial release by NOAO volunteers*
+* [2.14 (December 1, 2007)](2.14)
+* [2.15 (November 22, 2010)](2.15)
+* [2.16 (March 22, 2012)](2.16) *last major release by NOAO*
+* [2.17 (January 4, 2022)](/release) *first community release*
