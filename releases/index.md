@@ -18,7 +18,7 @@ individual architectures.
 * 2.6 (February 24, 1988)
 * 2.7 (December 4, 1988)
 * 2.8 (June 30, 1989)
-* 2.9 (April 10, 1990)
+* [2.9 (April 10, 1990)](2.9)
 * [2.10 (July 1992)](2.10)
 * [2.11 (August 27, 1997)](2.11)
 * [2.12 (January 25, 2002)](2.12)
