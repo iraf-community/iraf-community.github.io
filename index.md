@@ -45,6 +45,9 @@ system and distribution.
 
 ## Documentation
 
+Most of the system documentation is available on [Read the
+Docs](https://iraf.readthedocs.io/).
+
  * [A Beginner’s Guide to Using IRAF (PDF)](doc/beguide.pdf) (1993)
  * [Package and Task Reference](https://iraf.readthedocs.io/en/latest/tasks/index.html) (current)
  * [SPP Reference Manual](https://iraf.readthedocs.io/en/latest/spp.html) (1983)
@@ -52,7 +55,7 @@ system and distribution.
  * [IRAF Standards and Conventions](https://iraf.readthedocs.io/en/latest/std.html) (1983)
  * [Standard Nomenclature](https://iraf.readthedocs.io/en/latest/std_gl.html) (1983)
  * [Site Manager’s Guide](https://iraf.readthedocs.io/en/latest/unixsmg.html) (2002)
-
+ * [IRAF v2.17 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v217revs.html) (2022)
 
 ## Citation
 
