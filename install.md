@@ -6,15 +6,10 @@ title: IRAF 2.17 Installation Instructions
 
 # Binary packages
 
-On some systems, IRAF can be directly installed from the package
-repositories:
-
- * Ubuntu 18.04 LTS and later,
- * Debian 10 "Buster" (also in Debian 9 "Stretch" [backports](https://backports.debian.org/)),
- * Mageia 6.1.
-
-Packages for Fedora are currently in preparation. Please contact us if
-you want to help packaging for macOS or other Linux versions.
+On some systems (Ubuntu, Debian, Mint, Mageia), IRAF can be directly
+installed from the package repositories. Packages for Fedora are
+available from the RPM Sphere third-party repository. Please contact
+us if you want to help packaging for macOS or other Linux versions.
 
 # Installation from source
 
