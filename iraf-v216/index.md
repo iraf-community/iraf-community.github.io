@@ -21,5 +21,5 @@ web site keeps a readonly backup of the [issues](issues/) and [pull
 requests](issues/pulls) for reference, and the [iraf-community Github
 repository](https://github.com/iraf-community/iraf) is built on top of
 the iraf/iraf-v216 repository. Most of the pull requests are merged
-into the iraf-community repository. See the [Release notes](/release)
+into the iraf-community repository. See the [Release notes](https://iraf.readthedocs.io/en/latest/releases/v217revs.html)
 for a complete list.
