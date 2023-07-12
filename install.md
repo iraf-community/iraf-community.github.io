@@ -15,7 +15,7 @@ us if you want to help packaging for macOS or other Linux versions.
 
 ## Distribution Files
 
-IRAF v2.17 is available from github at
+IRAF v2.17.1 is available from github at
 
 https://github.com/iraf-community/iraf/releases/latest/
 
