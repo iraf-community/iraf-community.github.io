@@ -57,6 +57,8 @@ Docs](https://iraf.readthedocs.io/).
  * [Site Manager’s Guide](https://iraf.readthedocs.io/en/latest/unixsmg.html) (2002)
  * [IRAF v2.17.1 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v217revs.html) (2022)
 
+Also, there is a lot of [additional IRAF documentation](https://iraf.readthedocs.io/en/latest/extradocs.html) available as PDF documents.
+
 ## Citation
 
 IRAF is listed in the Astronomical Source Code Library as
