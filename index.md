@@ -55,7 +55,7 @@ Docs](https://iraf.readthedocs.io/).
  * [IRAF Standards and Conventions](https://iraf.readthedocs.io/en/latest/std.html) (1983)
  * [Standard Nomenclature](https://iraf.readthedocs.io/en/latest/std_gl.html) (1983)
  * [Site Manager’s Guide](https://iraf.readthedocs.io/en/latest/unixsmg.html) (2002)
- * [IRAF v2.17.1 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v217revs.html) (2022)
+ * [IRAF v2.17.1 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v217revs.html) (2023)
 
 Also, there is a lot of [additional IRAF documentation](https://iraf.readthedocs.io/en/latest/extradocs.html) available as PDF documents.
 
