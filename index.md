@@ -13,7 +13,7 @@ data. IRAF is licensed under a [MIT style license](COPYRIGHT). The
 software was written by the National Optical Astronomy Observatories
 (NOAO) in Tucson, Arizona. However, development and maintenance of
 IRAF is discontinued since 2013. The latest NOAO release had a large
-number of problems, including major license issues and security bugs.
+number of problems, including [major license issues](/iraf-v216/license-problems.html) and security bugs.
 
 To prevent the software from bitrotting, and to fix bugs that are in
 the package despite (or because) of its age, the
