@@ -17,7 +17,7 @@ us if you want to help packaging for macOS or other Linux versions.
 
 IRAF v2.17.1 is available from github at
 
-https://github.com/iraf-community/iraf/releases/latest/
+[https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
 
 
 ## System Requirements and Dependencies
