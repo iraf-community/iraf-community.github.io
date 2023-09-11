@@ -12,7 +12,7 @@ title: PyRAF -- Command language for IRAF based on Python
 PyRAF is a command language for IRAF based on the Python scripting language
 that can be used in place of the existing IRAF CL. It allows such things as
 importing Python modules, starting in any directory, GUI parameter editing and
-help. It can be importedinto Python allowing you to run IRAF commands from
+help. It can be imported into Python allowing you to run IRAF commands from
 within a larger script.
 
 PyRAF was developed since 1999 at the Space Telescope Science Institute
