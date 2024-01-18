@@ -103,3 +103,19 @@ resolved with pull request
 github repository iraf/iraf-v216.
 
 _**The community distribution of IRAF correctly acknowledges the contributions of the IRAF64 project.**_
+
+## Code adapted from Berkeley UNIX
+
+The directory
+[`unix/os/net`](https://github.com/iraf-community/iraf/tree/3eea23e7ece09523d3770ab6b227be69d8924947/unix/os/net)
+contains code that is not Open Source, as documented in its
+[README](https://github.com/iraf-community/iraf/tree/3eea23e7ece09523d3770ab6b227be69d8924947/unix/os/net):
+
+> NOTE -- This directory contains software which is adapted from the
+  Berkeley UNIX networking software, hence a UNIX source license is
+  required to use this software. […]
+
+Although this code is present until version 2.16.1, it is unused and
+removed in pull request [#274](https://github.com/iraf-community/iraf/pull/274).
+
+_**This directory is removed from the community distribution of IRAF.**_
