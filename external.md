@@ -17,18 +17,8 @@ iraf-community organization on github:
   General IR reductions/NEWFIRM package 
 * [vo](https://github.com/iraf-community/iraf-vo) -
   Virtual Observatory package and vocl from the NOAO v2.16.1 release
-* [mscdb](https://github.com/iraf-community/iraf-mscdb) -
-  MSCRED support files
 * [xdimsum](https://github.com/iraf-community/iraf-xdimsum) -
   IR reductions
-* [ucsclris](https://github.com/iraf-community/iraf-ucsclris) -
-  UCSC LRIS mask making
-* [guiapps](https://github.com/iraf-community/iraf-guiapps) -
-  Prototype GUI application 
-* [deitab](https://github.com/iraf-community/iraf-deitab) -
-  DEIMOS tables package 
-* [adccdrom](https://github.com/iraf-community/iraf-adccdrom) -
-  Astronomical Data Center (ADC) CD-ROM tools
 * [ctio](https://github.com/iraf-community/iraf-ctio) -
   Tools for the Cerro Tololo Inter-American Observatory
 
