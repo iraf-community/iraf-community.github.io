@@ -7,20 +7,23 @@ title: External packages
 Several external packages are maintained in repositories within the
 iraf-community organization on github:
 
+* [ctio](https://github.com/iraf-community/iraf-ctio) -
+  Tools for the Cerro Tololo Inter-American Observatory
 * [fitsutil](https://github.com/iraf-community/iraf-fitsutil) -
   Utilities for single and multiple FITS files
-* [sptable](https://github.com/iraf-community/iraf-sptable) -
-  IRAF package for tabular spectra
 * [mscred](https://github.com/iraf-community/iraf-mscred) -
   Mosaic CCD reduction package
 * [nfextern](https://github.com/iraf-community/iraf-nfextern) -
   General IR reductions/NEWFIRM package 
+* [sptable](https://github.com/iraf-community/iraf-sptable) -
+  IRAF package for tabular spectra
 * [vo](https://github.com/iraf-community/iraf-vo) -
   Virtual Observatory package and vocl from the NOAO v2.16.1 release
 * [xdimsum](https://github.com/iraf-community/iraf-xdimsum) -
-  IR reductions
-* [ctio](https://github.com/iraf-community/iraf-ctio) -
-  Tools for the Cerro Tololo Inter-American Observatory
+   Deep Infrared Mosaicing Software
+
+The documentation of many external packages is availale on [Read the
+Docs](https://iraf.readthedocs.io/en/latest/tasks/external/index.html).
 
 Please note that the repositories only contain the source code and often did
 not receive an update yet. If there are more packages that should be
