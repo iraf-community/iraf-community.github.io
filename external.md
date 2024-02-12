@@ -23,7 +23,7 @@ iraf-community organization on github:
    Deep Infrared Mosaicing Software
 
 The documentation of many external packages is availale on [Read the
-Docs](https://iraf.readthedocs.io/en/latest/tasks/external/index.html).
+Docs](https://iraf.readthedocs.io/en/latest/tasks/extern.html).
 
 Please note that the repositories only contain the source code and often did
 not receive an update yet. If there are more packages that should be
