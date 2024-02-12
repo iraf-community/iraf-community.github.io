@@ -48,3 +48,7 @@ is stored in a [Git repository](https://github.com/iraf-community/stsdas).
 Parts of the TABLES package are however included as 
 [NTTOOLS package](https://iraf.readthedocs.io/en/latest/tasks/utilities/nttools/index.html)
 in the IRAF core.
+
+There is also a subset of STSDAS tools for use with the GEMINI data
+reduction available at NOIRLab as the
+[st4gem package](https://gitlab.com/nsf-noirlab/csdc/usngo/iraf/st4gem).
