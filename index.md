@@ -45,7 +45,7 @@ system and distribution.
 
 ## Documentation
 
-Most of the system documentation is available on [Read the
+The complete system documentation is available on [Read the
 Docs](https://iraf.readthedocs.io/).
 
  * [A Beginner’s Guide to Using IRAF (PDF)](doc/beguide.pdf) (1993)
