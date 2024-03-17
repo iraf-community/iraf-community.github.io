@@ -6,18 +6,89 @@ title: IRAF 2.17.1 Installation Instructions
 
 # Binary packages
 
-On some systems (Ubuntu, Debian, Mint, Mageia), IRAF can be directly
-installed from the package repositories. Packages for Fedora are
-available from the RPM Sphere third-party repository. Please contact
-us if you want to help packaging for macOS or other Linux versions.
+## Linux
+
+### Debian and derivatives (Ubuntu, Mint, Raspbian, …)
+
+On Debian like systems, IRAF and xgterm can be installed directly from
+the standard package repositories and can be installed with the
+command
+
+    $ sudo apt install iraf xgterm
+
+This also installs the NOAO package. Development tools (**xc**,
+**mkpkg** and development libraries) can be installed separately if
+needed with the package **iraf-dev**. PyRAF is available as
+**python3-pyraf** package.
+
+Depending on the distribution, there are also some external packages
+available as **iraf-fitsutil**, **iraf-mscred**, **iraf-rvsao**,
+**iraf-sptable**, **iraf-st4gem**, **iraf-wcstools** and
+**iraf-xdimsum**.
+
+### Other distributions
+
+On Mageia Linux, IRAF can also be directly installed from the package
+repositories. Packages for Fedora Linux are available from the RPM
+Sphere third-party repository.
+
+Please contact us if you want to help packaging for macOS or other
+Linux versions.
+
+
+## macOS
+
+For macOS, a beta release of the installer is available. Please
+download the installer (~100 MB) for your system:
+
+ * [Apple Silicon (macOS 11 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta/iraf-2.17.1-beta-arm64.pkg)
+
+ * [Intel 64 bit (OS X 10.10 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta/iraf-2.17.1-beta-x86_64.pkg)
+
+ * [Intel 32 bit (Mac OS X 10.6 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta/iraf-2.17.1-beta-i386.pkg)
+
+Keep in mind that the installer is a ***beta*** version and contact us in case of
+installation problems.
+
+After downloading, open the installer package by right-clicking on the
+icon and selecting **Open**. As the software is not signed with an
+Apple certificate, a window will show with a warning that the package
+comes from an unidentified packager. Click on **Open** to continue.
+
+![welcome window](macinstall/macinstall-01.png){: width="70%"}
+
+Follow now the installer instructions by clicking on **Continue**. In
+the **Installation Type** screen, adjust the list of packages for your
+needs. Aside from the main IRAF package and X11IRAF, a selection of
+[external packages](external.html) is offered. The [**st4gem**
+package](https://iraf.readthedocs.io/en/latest/tasks/st4gem/index.html)
+offers a number of tasks from the discontinued STSDAS package and can
+be used as an alternative.
+
+![installation type window](macinstall/macinstall-02.png){: width="70%"}
+
+IRAF will be installed under `/usr/local/lib/iraf/` and the installer
+will ask you for the root password of the machine. At the end you will
+see a screen like this:
+
+![summary window](macinstall/macinstall-04.png){: width="70%"}
+
+Additionally, you will need an X server
+([XQuartz](https://www.xquartz.org/)) to display plots. As image
+display, most people prefer [SAOImageDS9](https://ds9.si.edu/) which should be
+installed separately. For development, the XCode command line tools
+are needed.
 
 # Installation from source
 
 ## Distribution Files
 
-IRAF v2.17.1 is available from github at
+IRAF v2.17.1 is available from Github at
 
 [https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
+
+Download the tar file (**.tar.gz**) from there, the zip file lacks the
+required symbolic links in the archive.
 
 
 ## System Requirements and Dependencies
