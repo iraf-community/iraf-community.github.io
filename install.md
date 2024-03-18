@@ -86,16 +86,6 @@ are needed.
 
 # Installation from source
 
-## Distribution Files
-
-IRAF v2.17.1 is available from Github at
-
-[https://github.com/iraf-community/iraf/releases/latest/](https://github.com/iraf-community/iraf/releases/latest/)
-
-Download the tar file (**.tar.gz**) from there, the zip file lacks the
-required symbolic links in the archive.
-
-
 ## System Requirements and Dependencies
 
 The distributed binaries require the readline or libedit, curl, expat,
@@ -119,13 +109,17 @@ haven't, you can install them with:
 Click "Install" to download and install Xcode Command Line Tools.
 
 
-## Unpack the IRAF Distribution
+## Download and unpack the IRAF Distribution
+
+IRAF v2.17.1 source code is available from Github at
+
+[https://github.com/iraf-community/iraf/archive/refs/tags/v2.17.1.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.17.1.tar.gz)
 
 The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-	$ tar zxf /<path>/iraf-2.17.1.tar.gz
+	$ tar zxf /<path>/v2.17.1.tar.gz
 	$ cd iraf-2.17.1/
 
 
