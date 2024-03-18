@@ -73,6 +73,11 @@ see a screen like this:
 
 ![summary window](macinstall/macinstall-04.png){: width="70%"}
 
+**Note**
+> The text on the final screen is misleading as IRAF 2.17.1 does not
+> contain the **irafcl** command. IRAF shall be started using the usual
+> commands **xgterm** and **ecl**.
+
 Additionally, you will need an X server
 ([XQuartz](https://www.xquartz.org/)) to display plots. As image
 display, most people prefer [SAOImageDS9](https://ds9.si.edu/) which should be
