@@ -41,14 +41,14 @@ Linux versions.
 For macOS, a beta release of the installer is available. Please
 download the installer (~100 MB) for your system:
 
- * [Apple Silicon (macOS 11 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta/iraf-2.17.1-beta-arm64.pkg)
+ * [Apple Silicon (macOS 11 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-arm64.pkg)
 
- * [Intel 64 bit (OS X 10.10 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta/iraf-2.17.1-beta-x86_64.pkg)
+ * [Intel 64 bit (OS X 10.10 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-x86_64.pkg)
 
- * [Intel 32 bit (Mac OS X 10.6 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta/iraf-2.17.1-beta-i386.pkg)
+ * [Intel 32 bit (Mac OS X 10.6 – 10.14)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-i386.pkg)
 
-Keep in mind that the installer is a ***beta*** version and contact us in case of
-installation problems.
+Keep in mind that the installer is a ***beta*** version and contact us
+in case of installation problems.
 
 After downloading, open the installer package by right-clicking on the
 icon and selecting **Open**. As the software is not signed with an
@@ -71,18 +71,17 @@ IRAF will be installed under `/usr/local/lib/iraf/` and the installer
 will ask you for the root password of the machine. At the end you will
 see a screen like this:
 
-![summary window](macinstall/macinstall-04.png){: width="70%"}
+![summary window](macinstall/macinstall-03.png){: width="70%"}
 
-**Note**
-> The text on the final screen is misleading as IRAF 2.17.1 does not
-> contain the **irafcl** command. IRAF shall be started using the usual
-> commands **xgterm** and **ecl**.
+If **X11IRAF** was selected, two new applications, **xgterm** and
+**ximtool** are installed:
 
-Additionally, you will need an X server
-([XQuartz](https://www.xquartz.org/)) to display plots. As image
-display, most people prefer [SAOImageDS9](https://ds9.si.edu/) which should be
-installed separately. For development, the XCode command line tools
-are needed.
+![X11IRAF applications](macinstall/x11irafapps.png){: width="50%"}
+
+For these applications, you will need an X server
+([XQuartz](https://www.xquartz.org/)). As an alternative image
+display, most people install [SAOImageDS9](https://ds9.si.edu/). For
+development, the XCode command line tools are needed.
 
 # Installation from source
 
