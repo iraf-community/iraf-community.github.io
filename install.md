@@ -41,13 +41,11 @@ Linux versions.
 For macOS, a beta release of the installer is available. Please
 download the installer (~100 MB) for your system:
 
- * [Apple Silicon (macOS 11 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-arm64.pkg)
+ * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-arm64.pkg) (for Macs with M1/M2/M3 processor)
+ * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
+ * [**Intel 32 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-i386.pkg) (if 32-bit IRAF is needed; Mac OS X 10.6 – 10.14)
 
- * [Intel 64 bit (OS X 10.10 or newer)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-x86_64.pkg)
-
- * [Intel 32 bit (Mac OS X 10.6 – 10.14)](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-i386.pkg)
-
-Keep in mind that the installer is a ***beta*** version and contact us
+Keep in mind that the installer is a ***beta*** release and contact us
 in case of installation problems.
 
 After downloading, open the installer package by right-clicking on the
