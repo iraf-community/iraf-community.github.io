@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.17.1
+title: IRAF 2.18
 ---
 
 [![ascl:9911.002](https://img.shields.io/badge/ascl-9911.002-blue.svg?colorB=262255)](http://ascl.net/9911.002)
@@ -57,7 +57,7 @@ Docs](https://iraf.readthedocs.io/).
  * [IRAF Standards and Conventions](https://iraf.readthedocs.io/en/latest/std.html) (1983)
  * [Standard Nomenclature](https://iraf.readthedocs.io/en/latest/std_gl.html) (1983)
  * [Site Manager’s Guide](https://iraf.readthedocs.io/en/latest/unixsmg.html) (2002)
- * [IRAF v2.17.1 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v217revs.html) (2023)
+ * [IRAF v2.18 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v218revs.html) (2024)
 
 Also, there is a lot of [additional IRAF documentation](https://iraf.readthedocs.io/en/latest/extradocs.html) available as PDF documents.
 

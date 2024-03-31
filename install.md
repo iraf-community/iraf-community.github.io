@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.17.1 Installation Instructions
+title: IRAF 2.18 Installation Instructions
 ---
 
 # Binary packages
@@ -62,17 +62,12 @@ Linux versions.
 
 ## macOS
 
-[![IRAF@mac release](https://img.shields.io/github/release/iraf-community/iraf-mac-build.svg?label=macOS&include_prereleases)](https://github.com/iraf-community/iraf-mac-build/releases/latest)
+[![IRAF@mac release](https://img.shields.io/github/release/iraf-community/iraf-mac-build.svg?label=macOS)](https://github.com/iraf-community/iraf-mac-build/releases/latest)
 
-For macOS, a beta release of the installer is available. Please
-download the installer (~100 MB) for your system:
+For macOS, please download the installer (~75 MB) for your system:
 
- * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-arm64.pkg) (for Macs with M1/M2/M3 processor)
- * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
- * [**Intel 32 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.17.1-beta2/iraf-2.17.1-beta2-i386.pkg) (if 32-bit IRAF is needed; Mac OS X 10.6 – 10.14)
-
-Keep in mind that the installer is a ***beta*** release and contact us
-in case of installation problems.
+ * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-arm64.pkg) (Macs with M1/M2/M3 processor)
+ * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
 
 After downloading, open the installer package by right-clicking on the
 icon and selecting **Open**. As the software is not signed with an
@@ -136,16 +131,16 @@ Click "Install" to download and install Xcode Command Line Tools.
 
 ## Download and unpack the IRAF Distribution
 
-IRAF v2.17.1 source code is available from Github at
+IRAF v2.18 source code is available from Github at
 
-[https://github.com/iraf-community/iraf/archive/refs/tags/v2.17.1.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.17.1.tar.gz)
+[https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.tar.gz)
 
 The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-	$ tar zxf /<path>/v2.17.1.tar.gz
-	$ cd iraf-2.17.1/
+	$ tar zxf /<path>/v2.18.tar.gz
+	$ cd iraf-2.18/
 
 Alternatively, the current development version can be cloned as a git
 repository from Github (assumed that you have an account):
