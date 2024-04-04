@@ -3,6 +3,7 @@ title: IRAF 2.17.1
 ---
 
 [![ascl:9911.002](https://img.shields.io/badge/ascl-9911.002-blue.svg?colorB=262255)](http://ascl.net/9911.002)
+[![10.5281/zenodo.5816743](https://zenodo.org/badge/DOI/10.5281/zenodo.5816743.svg)](https://doi.org/10.5281/zenodo.5816743)
 [![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
 [![IRAF CI test](https://github.com/iraf-community/iraf/workflows/IRAF%20CI%20test/badge.svg)](https://github.com/olebole/iraf/actions?query=workflow%3A%22IRAF+CI+test%22)
 [![Documentation Status](https://readthedocs.org/projects/iraf/badge/?version=latest)](https://iraf.readthedocs.io/en/latest/?badge=latest)
@@ -11,9 +12,10 @@ IRAF is the Image Reduction and Analysis Facility, a general purpose
 software system for the reduction and analysis of astronomical
 data. IRAF is licensed under a [MIT style license](COPYRIGHT). The
 software was written by the National Optical Astronomy Observatories
-(NOAO) in Tucson, Arizona. However, development and maintenance of
-IRAF is discontinued since 2013. The latest NOAO release had a large
-number of problems, including [major license issues](/iraf-v216/license-problems.html) and security bugs.
+(NOAO) in Tucson, Arizona. However, continuous institutional
+development and maintenance of IRAF is discontinued since 2013. The
+latest NOAO release had a large number of problems, including [major
+license issues](/iraf-v216/license-problems.html) and security bugs.
 
 To prevent the software from bitrotting, and to fix bugs that are in
 the package despite (or because) of its age, the
@@ -62,8 +64,10 @@ Also, there is a lot of [additional IRAF documentation](https://iraf.readthedocs
 ## Citation
 
 IRAF is listed in the Astronomical Source Code Library as
-[ascl:9911.002](https://ascl.net/9911.002). There are two papers appropriate
-as references for IRAF in a publication:
+[ascl:9911.002](https://ascl.net/9911.002). The DOI is
+[10.5281/zenodo.5816743](https://doi.org/10.5281/zenodo.5816743).
+There are two papers appropriate as references for IRAF in a
+publication:
 
 * Tody, D., [The IRAF Data Reduction and Analysis
   System](https://iraf-community.github.io/doc/iraf.pdf), in
