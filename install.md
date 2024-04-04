@@ -19,12 +19,28 @@ command
 This also installs the NOAO package. Development tools (**xc**,
 **mkpkg** and development libraries) can be installed separately if
 needed with the package **iraf-dev**. PyRAF is available as
-**python3-pyraf** package.
+**python3-pyraf** package, and ximtool as **ximtool** package.
 
-Depending on the distribution, there are also some external packages
-available as **iraf-fitsutil**, **iraf-mscred**, **iraf-rvsao**,
-**iraf-sptable**, **iraf-st4gem**, **iraf-wcstools** and
-**iraf-xdimsum**.
+There are also some external packages available:
+ * **iraf-fitsutil**,
+ * **iraf-mscred**,
+ * **iraf-rvsao**,
+ * **iraf-sptable**,
+ * **iraf-st4gem** (upcoming Debian 13 and Ubuntu 24.04),
+ * **iraf-wcstools**, and
+ * **iraf-xdimsum** (upcoming Debian 13 and Ubuntu 24.04).
+
+The [Debian Astro Pure
+Blend](https://blends.debian.org/astro/tasks/iraf) metapackage
+[**astro-iraf**](https://blends.debian.org/astro/tasks/iraf) installs
+all available IRAF packages, so
+
+    $ sudo apt install astro-iraf
+
+provides a simple way to install a complete IRAF system on Debian and
+derived distributions. That DS9 tool which many prefer over ximtool can
+be installed as **saods9** package.
+
 
 ### Other distributions
 
