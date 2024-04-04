@@ -2,13 +2,17 @@
 title: IRAF 2.17.1 Installation Instructions
 ---
 
-[![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg)](https://github.com/iraf-community/iraf/releases/latest)
-
 # Binary packages
 
 ## Linux
 
 ### Debian and derivatives (Ubuntu, Mint, Raspbian, …)
+
+[![Debian 12 package](https://repology.org/badge/version-for-repo/debian_12/iraf.svg?header=Debian%2012)](https://packages.debian.org/bookworm/source/iraf)
+[![Debian 13 package](https://repology.org/badge/version-for-repo/debian_13/iraf.svg?header=Debian%2013)](https://packages.debian.org/source/trixie/iraf)
+[![Raspbian Stable package](https://repology.org/badge/version-for-repo/raspbian_stable/iraf.svg?header=Raspbian%20Stable)](https://repology.org/project/iraf/versions)
+[![Ubuntu 22.04 package](https://repology.org/badge/version-for-repo/ubuntu_22_04/iraf.svg?header=Ubuntu%2022.04)](https://packages.ubuntu.com/source/jammy/iraf)
+[![Ubuntu 24.04 package](https://repology.org/badge/version-for-repo/ubuntu_24_04/iraf.svg?header=Ubuntu%2024.04)](https://packages.ubuntu.com/source/noble/iraf)
 
 On Debian like systems, IRAF and xgterm can be installed directly from
 the standard package repositories and can be installed with the
@@ -38,11 +42,15 @@ all available IRAF packages, so
     $ sudo apt install astro-iraf
 
 provides a simple way to install a complete IRAF system on Debian and
-derived distributions. That DS9 tool which many prefer over ximtool can
+derived distributions. The DS9 tool which many prefer over ximtool can
 be installed as **saods9** package.
 
 
 ### Other distributions
+
+[![Mageia cauldron package](https://repology.org/badge/version-for-repo/mageia_cauldron/iraf.svg?header=Mageia%20Cauldron)](https://madb.mageia.org/package/show/source/1/application/0/release/cauldron/name/iraf)
+[![RPM Sphere package](https://repology.org/badge/version-for-repo/rpmsphere/iraf.svg?header=RPM%20Sphere)](https://repology.org/project/iraf/versions)
+[![AUR package](https://repology.org/badge/version-for-repo/aur/iraf.svg?header=Arch%20Linux)](https://aur.archlinux.org/packages/iraf-bin)
 
 On Mageia Linux, IRAF can also be directly installed from the package
 repositories. Packages for Fedora Linux are available from the RPM
@@ -53,6 +61,8 @@ Linux versions.
 
 
 ## macOS
+
+[![IRAF@mac release](https://img.shields.io/github/release/iraf-community/iraf-mac-build.svg?label=macOS&include_prereleases)](https://github.com/iraf-community/iraf-mac-build/releases/latest)
 
 For macOS, a beta release of the installer is available. Please
 download the installer (~100 MB) for your system:
@@ -98,6 +108,8 @@ display, most people install [SAOImageDS9](https://ds9.si.edu/). For
 development, the XCode command line tools are needed.
 
 # Installation from source
+
+[![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg?label=Source%20Code)](https://github.com/iraf-community/iraf/releases/latest)
 
 ## System Requirements and Dependencies
 
