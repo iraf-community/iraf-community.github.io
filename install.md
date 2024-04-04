@@ -147,6 +147,14 @@ unpacked with the command
 	$ tar zxf /<path>/v2.17.1.tar.gz
 	$ cd iraf-2.17.1/
 
+Alternatively, the current development version can be cloned as a git
+repository from Github (assumed that you have an account):
+
+	$ git clone git@github.com:iraf-community/iraf.git
+	$ cd iraf/
+	
+Keep in mind that this installs the latest development version, which
+may contain new bugs and other obstacles.
 
 ## Build from Sources
 
