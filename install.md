@@ -70,10 +70,11 @@ For macOS, please download the installer (~75 MB) for your system:
  * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
  * [**Intel 32 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-i386.pkg) (if 32-bit IRAF is needed; Mac OS X 10.6 – 10.14)
 
-After downloading, open the installer package by right-clicking on the
-icon and selecting **Open**. As the software is not signed with an
-Apple certificate, a window will show with a warning that the package
-comes from an unidentified packager. Click on **Open** to continue.
+After downloading, open the installer package by holding the
+<kbd>control</kbd> key while clicking on the icon. As the software is not
+signed with an Apple certificate, a window will show with a warning
+that the package comes from an unidentified packager. Click on
+**Open** to continue.
 
 ![welcome window](macinstall/macinstall-01.png){: width="70%"}
 
