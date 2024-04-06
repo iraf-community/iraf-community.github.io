@@ -14,9 +14,8 @@ title: IRAF 2.18 Installation Instructions
 [![Ubuntu 22.04 package](https://repology.org/badge/version-for-repo/ubuntu_22_04/iraf.svg?header=Ubuntu%2022.04)](https://packages.ubuntu.com/source/jammy/iraf)
 [![Ubuntu 24.04 package](https://repology.org/badge/version-for-repo/ubuntu_24_04/iraf.svg?header=Ubuntu%2024.04)](https://packages.ubuntu.com/source/noble/iraf)
 
-On Debian like systems, IRAF and xgterm can be installed directly from
-the standard package repositories and can be installed with the
-command
+On Debian like systems, IRAF and xgterm are distributed in the
+standard package repositories and can be installed with the command
 
     $ sudo apt install iraf xgterm
 
@@ -71,9 +70,9 @@ For macOS, please download the installer (~75 MB) for your system:
  * [**Intel 32 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-i386.pkg) (if 32-bit IRAF is needed; Mac OS X 10.6 – 10.14)
 
 After downloading, open the installer package by holding the
-<kbd>control</kbd> key while clicking on the icon. As the software is not
-signed with an Apple certificate, a window will show with a warning
-that the package comes from an unidentified packager. Click on
+<kbd>control</kbd> key while clicking on the icon. As the software is
+not signed with an Apple certificate, a window will show with a
+warning that the package comes from an unidentified packager. Click on
 **Open** to continue.
 
 ![welcome window](macinstall/macinstall-01.png){: width="70%"}
