@@ -61,7 +61,7 @@ Linux versions.
 
 ## macOS
 
-[![IRAF@mac release](https://img.shields.io/github/release/iraf-community/iraf-mac-build.svg?label=macOS)](https://github.com/iraf-community/iraf-mac-build/releases/latest)
+[![IRAF@mac release](https://img.shields.io/github/release/iraf-community/iraf-mac-build.svg?label=macOS&color=%234c1)](https://github.com/iraf-community/iraf-mac-build/releases/latest)
 
 For macOS, please download the installer (~75 MB) for your system:
 
@@ -105,7 +105,7 @@ development, the XCode command line tools are needed.
 
 # Installation from source
 
-[![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg?label=Source%20Code)](https://github.com/iraf-community/iraf/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/iraf-community/iraf.svg?label=Source%20Code&color=%234c1)](https://github.com/iraf-community/iraf/releases/latest)
 
 ## System Requirements and Dependencies
 
