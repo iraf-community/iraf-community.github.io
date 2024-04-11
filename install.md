@@ -55,8 +55,7 @@ On Mageia Linux, IRAF can also be directly installed from the package
 repositories. Packages for Fedora Linux are available from the RPM
 Sphere third-party repository.
 
-Please contact us if you want to help packaging for macOS or other
-Linux versions.
+Please contact us if you want to help packaging for any Linux versions.
 
 
 ## macOS
