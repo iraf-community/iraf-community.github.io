@@ -117,7 +117,7 @@ On Debian and its derivatives (Ubuntu, Mint, Devuan, Raspbian etc.):
 
 On Fedora and its derivatives (Redhat, Scientific Linux etc.)
 
-	$ sudo dnf install gcc make perl flex bison zlib-devel readline-devel
+	$ sudo dnf install gcc make perl flex byacc zlib-devel readline-devel
 
 On MacOS X, you need to have the XCode tools installed. If you
 haven't, you can install them with:
