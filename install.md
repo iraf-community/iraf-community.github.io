@@ -98,9 +98,10 @@ If **X11IRAF** was selected, two new applications, **xgterm** and
 ![X11IRAF applications](macinstall/x11irafapps.png){: width="50%"}
 
 For these applications, you will need an X server
-([XQuartz](https://www.xquartz.org/)). As an alternative image
-display, most people install [SAOImageDS9](https://ds9.si.edu/). For
-development, the XCode command line tools are needed.
+([XQuartz](https://www.xquartz.org/)). As an alternative to the
+ximtool image display program, most people install
+[SAOImageDS9](https://ds9.si.edu/). For development, the XCode command
+line tools are needed.
 
 # Installation from source
 
