@@ -22,7 +22,7 @@ iraf-community organization on github:
 * [xdimsum](https://github.com/iraf-community/iraf-xdimsum) -
    Deep Infrared Mosaicing Software
 
-The documentation of many external packages is availale on [Read the
+The documentation of many external packages is available on [Read the
 Docs](https://iraf.readthedocs.io/en/latest/tasks/extern.html).
 
 Please note that the repositories only contain the source code and often did
