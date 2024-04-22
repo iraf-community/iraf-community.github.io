@@ -52,12 +52,10 @@ Docs](https://iraf.readthedocs.io/).
 
  * [A Beginner’s Guide to Using IRAF (PDF)](doc/beguide.pdf) (1993)
  * [Package and Task Reference](https://iraf.readthedocs.io/en/latest/tasks/index.html) (current)
+ * [Selected External Packages](https://iraf.readthedocs.io/en/latest/tasks/extern.html) (current)
  * [SPP Reference Manual](https://iraf.readthedocs.io/en/latest/spp.html) (1983)
  * [CL Programmer’s Manual](https://iraf.readthedocs.io/en/latest/clman.html) (1983)
- * [IRAF Standards and Conventions](https://iraf.readthedocs.io/en/latest/std.html) (1983)
- * [Standard Nomenclature](https://iraf.readthedocs.io/en/latest/std_gl.html) (1983)
- * [Site Manager’s Guide](https://iraf.readthedocs.io/en/latest/unixsmg.html) (2002)
- * [IRAF v2.18 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v218revs.html) (2024)
+ * [IRAF 2.18 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v218revs.html) (2024)
 
 Also, there is a lot of [additional IRAF documentation](https://iraf.readthedocs.io/en/latest/extradocs.html) available as PDF documents.
 
