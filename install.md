@@ -29,9 +29,9 @@ There are also some external packages available:
  * **iraf-mscred**,
  * **iraf-rvsao**,
  * **iraf-sptable**,
- * **iraf-st4gem** (upcoming Debian 13 and Ubuntu 24.04),
+ * **iraf-st4gem** (Ubuntu 24.04 and upcoming Debian 13),
  * **iraf-wcstools**, and
- * **iraf-xdimsum** (upcoming Debian 13 and Ubuntu 24.04).
+ * **iraf-xdimsum** (Ubuntu 24.04 and upcoming Debian 13).
 
 The [Debian Astro Pure
 Blend](https://blends.debian.org/astro/tasks/iraf) metapackage
