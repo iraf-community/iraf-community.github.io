@@ -3,3 +3,8 @@ title: IRAF Community Distribution
 description: IRAF maintained by the community
 url: https://iraf-community.github.io
 #google_analytics: G-FRY010JPKR
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /iraf-soc.png
