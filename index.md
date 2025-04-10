@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.18
+title: IRAF 2.18.1
 ---
 
 [![ascl:9911.002](https://img.shields.io/badge/ascl-9911.002-blue.svg?colorB=262255)](http://ascl.net/9911.002)
@@ -55,7 +55,7 @@ Docs](https://iraf.readthedocs.io/).
  * [Selected External Packages](https://iraf.readthedocs.io/en/latest/tasks/extern.html) (current)
  * [SPP Reference Manual](https://iraf.readthedocs.io/en/latest/spp.html) (1983)
  * [CL Programmer’s Manual](https://iraf.readthedocs.io/en/latest/clman.html) (1983)
- * [IRAF 2.18 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v218revs.html) (2024)
+ * [IRAF 2.18.1 Release Notes](https://iraf.readthedocs.io/en/latest/releases/v218revs.html) (2024)
 
 Also, there is a lot of [additional IRAF documentation](https://iraf.readthedocs.io/en/latest/extradocs.html) available as PDF documents.
 

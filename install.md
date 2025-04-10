@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.18 Installation Instructions
+title: IRAF 2.18.1 Installation Instructions
 ---
 
 # Binary packages
@@ -134,16 +134,16 @@ Click "Install" to download and install Xcode Command Line Tools.
 
 ## Download and unpack the IRAF Distribution
 
-IRAF v2.18 source code is available from Github at
+IRAF v2.18.1 source code is available from Github at
 
-[https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.tar.gz)
+[https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.1.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.1.tar.gz)
 
 The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-	$ tar zxf /<path>/v2.18.tar.gz
-	$ cd iraf-2.18/
+	$ tar zxf /<path>/v2.18.1.tar.gz
+	$ cd iraf-2.18.1/
 
 Alternatively, the current development version can be cloned as a git
 repository from Github (assumed that you have an account):
