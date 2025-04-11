@@ -64,8 +64,8 @@ Please contact us if you want to help packaging for any Linux versions.
 
 For macOS, please download the installer (~75 MB) for your system:
 
- * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-arm64.pkg) (Macs with M1/M2/M3 processor)
- * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
+ * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.1-1/iraf-2.18.1-1-arm64.pkg) (Macs with M1/M2/M3 processor)
+ * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.1-1/iraf-2.18.1-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
  * [**Intel 32 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-i386.pkg) (if 32-bit IRAF is needed; Mac OS X 10.6 – 10.14)
 
 As the software is not signed with an Apple certificate, you need to
