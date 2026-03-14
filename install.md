@@ -29,9 +29,9 @@ There are also some external packages available:
  * **iraf-mscred**,
  * **iraf-rvsao**,
  * **iraf-sptable**,
- * **iraf-st4gem** (Ubuntu 24.04 and upcoming Debian 13),
+ * **iraf-st4gem** (Debian 13, Ubuntu 24.04 or later),
  * **iraf-wcstools**, and
- * **iraf-xdimsum** (Ubuntu 24.04 and upcoming Debian 13).
+ * **iraf-xdimsum** (Debian 13, Ubuntu 24.04 or later),
 
 The [Debian Astro Pure
 Blend](https://blends.debian.org/astro/tasks/iraf) metapackage
@@ -60,9 +60,42 @@ Please contact us if you want to help packaging for any Linux versions.
 
 ## macOS
 
+### Homebrew
+
+![GitHub Tag](https://img.shields.io/github/v/tag/iraf-community/homebrew-tap?filter=iraf-2.*&label=Homebrew&color=green)
+
+The preferred installation method for IRAF for macOS is via a
+[Homebrew](https://brew.sh/) tap. The following commands install IRAF and X11IRAF:
+
+    $ brew tap iraf-community/tap
+    $ brew install iraf x11iraf
+
+PyRAF can be installed via [PyPI](https://pypi.org/project/pyraf/).
+
+There are also some external packages available on this Homebrew tap:
+
+ * **iraf-ctio**,
+ * **iraf-fitsutil**,
+ * **iraf-mscred**,
+ * **iraf-rvsao**,
+ * **iraf-sptable**,
+ * **iraf-st4gem**, and
+ * **iraf-xdimsum**.
+
+You will also need an X server ([XQuartz](https://www.xquartz.org/)), which can be installed via Homebrew with
+
+    $ brew install --cask xquartz
+
+*Note: After the initial installation of XQuartz, a system restart or logging out and back in is required.*
+
+As an alternative to the ximtool image display program provided with X11IRAF, most people install [SAOImageDS9](https://ds9.si.edu/).
+
+
+### Installation package
+
 [![IRAF@mac release](https://img.shields.io/github/release/iraf-community/iraf-mac-build.svg?label=macOS&color=%234c1)](https://github.com/iraf-community/iraf-mac-build/releases/latest)
 
-For macOS, please download the installer (~75 MB) for your system:
+For this installation method, please download the installer (~75 MB) for your system:
 
  * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.1-1/iraf-2.18.1-1-arm64.pkg) (Macs with M1/M2/M3 processor)
  * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.1-1/iraf-2.18.1-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
