@@ -11,8 +11,8 @@ title: IRAF 2.18.1 Installation Instructions
 [![Debian 12 package](https://repology.org/badge/version-for-repo/debian_12/iraf.svg?header=Debian%2012)](https://packages.debian.org/bookworm/source/iraf)
 [![Debian 13 package](https://repology.org/badge/version-for-repo/debian_13/iraf.svg?header=Debian%2013)](https://packages.debian.org/source/trixie/iraf)
 [![Raspbian Stable package](https://repology.org/badge/version-for-repo/raspbian_stable/iraf.svg?header=Raspbian%20Stable)](https://repology.org/project/iraf/versions)
-[![Ubuntu 22.04 package](https://repology.org/badge/version-for-repo/ubuntu_22_04/iraf.svg?header=Ubuntu%2022.04)](https://packages.ubuntu.com/source/jammy/iraf)
 [![Ubuntu 24.04 package](https://repology.org/badge/version-for-repo/ubuntu_24_04/iraf.svg?header=Ubuntu%2024.04)](https://packages.ubuntu.com/source/noble/iraf)
+[![Ubuntu 26.04 package](https://repology.org/badge/version-for-repo/ubuntu_26_04/iraf.svg?header=Ubuntu%2026.04)](https://packages.ubuntu.com/source/resolute/iraf)
 
 On Debian like systems, IRAF and xgterm are distributed in the
 standard package repositories and can be installed with the command
