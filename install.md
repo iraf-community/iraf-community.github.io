@@ -1,5 +1,5 @@
 ---
-title: IRAF 2.18.1 Installation Instructions
+title: IRAF 2.18.2 Installation Instructions
 ---
 
 # Binary packages
@@ -97,8 +97,8 @@ As an alternative to the ximtool image display program provided with X11IRAF, mo
 
 For this installation method, please download the installer (~75 MB) for your system:
 
- * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.1-1/iraf-2.18.1-1-arm64.pkg) (Macs with M1/M2/M3 processor)
- * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.1-1/iraf-2.18.1-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
+ * [**Apple Silicon**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.2-1/iraf-2.18.2-1-arm64.pkg) (Macs with M1/M2/M3 processor)
+ * [**Intel 64 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18.2-1/iraf-2.18.2-1-x86_64.pkg) (older Macs before ~2020; OS X 10.10 or newer)
  * [**Intel 32 bit**](https://github.com/iraf-community/iraf-mac-build/releases/download/v2.18-1/iraf-2.18-1-i386.pkg) (if 32-bit IRAF is needed; Mac OS X 10.6 – 10.14)
 
 As the software is not signed with an Apple certificate, you need to
@@ -167,16 +167,16 @@ Click "Install" to download and install Xcode Command Line Tools.
 
 ## Download and unpack the IRAF Distribution
 
-IRAF v2.18.1 source code is available from Github at
+IRAF v2.18.2 source code is available from Github at
 
-[https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.1.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.1.tar.gz)
+[https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.2.tar.gz](https://github.com/iraf-community/iraf/archive/refs/tags/v2.18.2.tar.gz)
 
 The source distribution file is built as a tarball with the package
 name and version as base directory. Thus, distribution files can be
 unpacked with the command
 
-	$ tar zxf /<path>/v2.18.1.tar.gz
-	$ cd iraf-2.18.1/
+	$ tar zxf /<path>/v2.18.2.tar.gz
+	$ cd iraf-2.18.2/
 
 Alternatively, the current development version can be cloned as a git
 repository from Github (assumed that you have an account):
