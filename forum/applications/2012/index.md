@@ -1,0 +1,41 @@
+---
+title: "Applications — 2012"
+---
+
+[⬅2011](../2011/) · [2013➡](../2013/) · [General IRAF](../../general) (1126) · [Applications](../../applications) (1346) · [Systems](../../systems) (494) · [Misc](../../misc) (46)
+
+# Applications — 2012
+
+- [New version of the Gemini IRAF package released (v1.11)](1467120.html) · emma on Jan 05, 2012 (1 post)
+- [rvsao on Lion](1467134.html) · Roberto Merighi on Jan 12, 2012 (3 posts)
+- ['Standard' task problem](1467170.html) · marco.03 on Feb 08, 2012 (2 posts)
+- [64-bit apall gives memory fwa corrupted panic error](1467190.html) · Paul Kerry on Feb 20, 2012 (20 posts)
+- [photometry of trailed stars](1467198.html) · bruzzone on Feb 23, 2012 (3 posts)
+- [outputs from 64 bit imtranspose are strange](1467203.html) · mo0713 on Feb 28, 2012 (3 posts)
+- [Problem with rspectext/wspectext](1467209.html) · cosmologist on Mar 03, 2012 (6 posts)
+- [Problems with IMCOMBINE](1467227.html) · Mairan Teodoro on Mar 07, 2012 (4 posts)
+- [mkstars on PSF](1467238.html) · azangari on Mar 12, 2012 (8 posts)
+- ["soar" missing in "observatory](1467249.html) · cosmologist on Mar 20, 2012 (2 posts)
+- [error of GSFLAT in gemini package](1467325.html) · bai on Apr 10, 2012 (13 posts)
+- [Problems with ELLIPSE and DS9](1467355.html) · Mike Fitzpatrick on May 09, 2012 (6 posts)
+- [splot log files](1467357.html) · Philip Massey on May 12, 2012 (2 posts)
+- [saturated stars and DAOPHOT PEAK task](1467359.html) · Vallery Stanishev on May 22, 2012 (1 post)
+- [Question about apfind, aptrace and parsing database files](1467370.html) · emma on Jun 01, 2012 (1 post)
+- [PSFMATCH](1467374.html) · T_anestis on Jun 04, 2012 (1 post)
+- [improving flattening/sky subtraction of Gemini GMOS images](1467425.html) · James Lowenthal on Jun 28, 2012 (1 post)
+- [post-facto binning?](1467427.html) · Philip Massey on Jul 02, 2012 (4 posts)
+- [tedit in nttools](1467446.html) · Donna Weistrop on Jul 11, 2012 (4 posts)
+- [splot ERROR: MWCS: dimension mismatch (mw\_open) dimension](1467447.html) · jsmoker on Jul 11, 2012 (1 post)
+- [errors iin calibration](1467453.html) · giannicatanzaro on Jul 17, 2012 (2 posts)
+- [PANIC in \`/iraf/iraf/noao/bin.redhat/x\_daophot.e': Memory ha](1467454.html) · ping zhao on Jul 20, 2012 (2 posts)
+- [obstime and date-obs:  too smart for its own good?](1467465.html) · azangari on Aug 16, 2012 (2 posts)
+- [finder/tfinder on V2.16](1467468.html) · Philip Massey on Aug 21, 2012 (11 posts)
+- [help with imexam script](1467488.html) · jcadien1 on Aug 29, 2012 (3 posts)
+- [lintran double precision?](1467492.html) · Alan Stockton on Sep 04, 2012 (6 posts)
+- [cosmicrays task segfaults](1467516.html) · Jason Quinn on Sep 09, 2012 (2 posts)
+- [objmasks filename problem](1467529.html) · cody on Sep 26, 2012 (3 posts)
+- [Gemini - GMOS](1467556.html) · donzelli on Oct 24, 2012 (3 posts)
+- [GFCUbe/GFEXTRACT Questions](1467557.html) · Mike Fitzpatrick on Oct 24, 2012 (2 posts)
+- [pstselect ERROR: segmentation violation](1467567.html) · ping zhao on Nov 19, 2012 (2 posts)
+- [ccdmask error](1467571.html) · jdm on Nov 21, 2012 (1 post)
+- [ADDSTAR Problem](1467594.html) · Mike Fitzpatrick on Dec 20, 2012 (3 posts)
