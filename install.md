@@ -68,6 +68,7 @@ The preferred installation method for IRAF for macOS is via a
 [Homebrew](https://brew.sh/) tap. The following commands install IRAF and X11IRAF:
 
     $ brew tap iraf-community/tap
+    $ brew trust iraf-community/tap
     $ brew install iraf x11iraf
 
 PyRAF can be installed via [PyPI](https://pypi.org/project/pyraf/).
