@@ -1,0 +1,51 @@
+---
+title: "dictionary full message"
+---
+
+# dictionary full message
+
+**Octavi Fors Aldrich** wrote on Jul 01, 1998
+
+<pre style="background: transparent; box-shadow: none; border: none;">
+
+Hi !
+
+I&#x27;ve been working in an IRAF script which takes a long time to be
+executed (tipically three days or more). It consist on a multi loop of
+different parameters which makes use of some IRAF tasks, like lucy in
+STSDAS and fitpsf in DIGIPHOTX.  It also deals with a lot of system
+calls as:
+
+print(&quot;!program.exe &quot; // par1 // &quot; &quot;// par2) | cl()
+
+where program.exe is the name of a C compiled executable, and par1 and
+par2 are parameters given by the script. Well, all seems to work
+properly until a message like this appears:
+
+INTERNAL ERROR on line 116: dictionary full
+
+This happens when the script has been running for an hour or more... Any
+idea? I have looked for some mistakes, but I have no ideas. Can you help
+me?
+
+Thanks in advance,
+
+=================================================================
+
+Octavi Fors Aldrich
+
+Astronomy Department
+Physics Faculty
+Avgda. Diagonal 647
+08028 Barcelona
+SPAIN
+
+
+octavi@fajnm1.am.ub.es
+
+=================================================================
+</pre>
+
+---
+
+*Last post on Jul 01, 1998*
