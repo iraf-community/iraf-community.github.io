@@ -2,9 +2,11 @@
 title: "adass.iraf.applications"
 ---
 
-[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [buglog](../adass.iraf.buglog) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
+[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
 
 # adass.iraf.applications
+
+Applications discussion group
 
 - [Best fwhm determinator](7de95c2d289f4d95.html) · Frank Valdes on Jul 25, 1997 (1 post)
 - [APALL extras data](fbf3f077afaf6093.html) · Frank Valdes on Jul 25, 1997 (1 post)

@@ -2,7 +2,7 @@
 title: "CCDPROC question."
 ---
 
-# CCDPROC question.
+## CCDPROC question.
 
 **Sergei Naumov** wrote on Dec 19, 1997
 

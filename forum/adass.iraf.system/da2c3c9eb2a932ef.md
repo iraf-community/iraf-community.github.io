@@ -2,7 +2,7 @@
 title: "mkimage and imdebug in 2.11 ??"
 ---
 
-# mkimage and imdebug in 2.11 ??
+## mkimage and imdebug in 2.11 ??
 
 **Mike Fitzpatrick** wrote on Aug 13, 1998
 

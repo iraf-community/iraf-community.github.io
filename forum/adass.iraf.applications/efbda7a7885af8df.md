@@ -2,7 +2,7 @@
 title: "MKOBJECTS - magnitudes for objects given as image templates"
 ---
 
-# MKOBJECTS - magnitudes for objects given as image templates
+## MKOBJECTS - magnitudes for objects given as image templates
 
 **Frank Valdes** wrote on Mar 19, 1998
 

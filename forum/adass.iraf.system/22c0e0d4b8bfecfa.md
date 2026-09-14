@@ -2,7 +2,7 @@
 title: "Standalone fits <-> iraf"
 ---
 
-# Standalone fits <-> iraf
+## Standalone fits <-> iraf
 
 **Mike Fitzpatrick** wrote on Mar 10, 1998
 

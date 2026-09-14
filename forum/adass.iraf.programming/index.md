@@ -2,9 +2,11 @@
 title: "adass.iraf.programming"
 ---
 
-[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [buglog](../adass.iraf.buglog) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
+[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
 
 # adass.iraf.programming
+
+Programming discussion group
 
 - [mkpkg and Fortran options](ef85b91a3a4e1305.html) · slouren@ll.iac.es on Mar 13, 1998 (3 posts)
 - [VB 5.0: List Box Helpl Please](6a1d1989a4821a03.html) · Tony Gilbert on Mar 22, 1998 (2 posts)

@@ -2,7 +2,7 @@
 title: "FOCAS: difference in magnitudes with different thresholds"
 ---
 
-# FOCAS: difference in magnitudes with different thresholds
+## FOCAS: difference in magnitudes with different thresholds
 
 **Frank Valdes** wrote on Jul 24, 1998
 

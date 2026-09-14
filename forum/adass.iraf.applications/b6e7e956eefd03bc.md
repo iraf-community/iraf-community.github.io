@@ -2,7 +2,7 @@
 title: "SPLOT line fitting with fixed FWHM"
 ---
 
-# SPLOT line fitting with fixed FWHM
+## SPLOT line fitting with fixed FWHM
 
 **Frank Valdes** wrote on Jul 14, 1999
 

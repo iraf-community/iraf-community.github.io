@@ -2,7 +2,7 @@
 title: "Mosaic IMEDIT, MSCCMD, and replacing extensions in MEF files"
 ---
 
-# Mosaic IMEDIT, MSCCMD, and replacing extensions in MEF files
+## Mosaic IMEDIT, MSCCMD, and replacing extensions in MEF files
 
 **Frank Valdes** wrote on Jun 04, 1999
 

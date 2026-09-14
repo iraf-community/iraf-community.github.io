@@ -2,7 +2,7 @@
 title: "dictionary full message"
 ---
 
-# dictionary full message
+## dictionary full message
 
 **Octavi Fors Aldrich** wrote on Jul 01, 1998
 

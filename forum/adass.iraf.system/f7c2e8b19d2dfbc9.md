@@ -2,7 +2,7 @@
 title: "IRAF under Red Hat 6.0 no go"
 ---
 
-# IRAF under Red Hat 6.0 no go
+## IRAF under Red Hat 6.0 no go
 
 **Tim Pickering** wrote on Apr 30, 1999
 

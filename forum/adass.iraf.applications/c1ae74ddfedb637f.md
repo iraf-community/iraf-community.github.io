@@ -2,7 +2,7 @@
 title: "Ximtool and Saoimage on KDE (Linux)"
 ---
 
-# Ximtool and Saoimage on KDE (Linux)
+## Ximtool and Saoimage on KDE (Linux)
 
 **Simon Anun** wrote on Apr 02, 2003
 

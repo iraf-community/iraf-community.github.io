@@ -2,9 +2,11 @@
 title: "adass.iraf.system"
 ---
 
-[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [buglog](../adass.iraf.buglog) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
+[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
 
 # adass.iraf.system
+
+System issues and system administration
 
 - [Using showcap to test tapecap/graphcap etc. files](45477d9a7681f62b.html) · Doug Tody on Nov 26, 1997 (1 post)
 - [Quad problems !!](cbefc20cb5e31dcc.html) · Sergei Naumov on Dec 11, 1997 (1 post)

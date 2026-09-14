@@ -2,7 +2,7 @@
 title: "helplog.18: photometry, DAOFIND, CENTERPARS"
 ---
 
-# helplog.18: photometry, DAOFIND, CENTERPARS
+## helplog.18: photometry, DAOFIND, CENTERPARS
 
 **Frank Valdes** wrote on Feb 03, 2005
 

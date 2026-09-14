@@ -2,7 +2,7 @@
 title: "Draft of FITS Standard revision 1.2 available for comment"
 ---
 
-# Draft of FITS Standard revision 1.2 available for comment
+## Draft of FITS Standard revision 1.2 available for comment
 
 **Richard White** wrote on Apr 15, 1998
 

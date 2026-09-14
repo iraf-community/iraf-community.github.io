@@ -2,7 +2,7 @@
 title: "HEDIT, ASTHEDIT: dealing with sexigesimal numbers"
 ---
 
-# HEDIT, ASTHEDIT: dealing with sexigesimal numbers
+## HEDIT, ASTHEDIT: dealing with sexigesimal numbers
 
 **Frank Valdes** wrote on Aug 11, 1998
 

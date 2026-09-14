@@ -2,9 +2,11 @@
 title: "adass.iraf.sources"
 ---
 
-[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [buglog](../adass.iraf.buglog) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
+[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
 
 # adass.iraf.sources
+
+Small programs or documents
 
 - [xiraf - A convenient way to start your IRAF session](c1d339074b6db882.html) · Vassilis Charmandaris on Dec 09, 1997 (1 post)
 - [LSARITH -- Long slit spectrum arithmetic](2b0ec3cdd8e1163a.html) · Frank Valdes on Mar 03, 1998 (1 post)

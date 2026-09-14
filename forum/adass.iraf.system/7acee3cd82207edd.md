@@ -2,7 +2,7 @@
 title: "Multiple Plots on a Screen"
 ---
 
-# Multiple Plots on a Screen
+## Multiple Plots on a Screen
 
 **Mike Fitzpatrick** wrote on Jun 25, 1998
 

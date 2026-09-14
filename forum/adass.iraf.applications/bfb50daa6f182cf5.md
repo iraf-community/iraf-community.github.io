@@ -2,7 +2,7 @@
 title: "helplog.12: cosmic rays, crutil"
 ---
 
-# helplog.12: cosmic rays, crutil
+## helplog.12: cosmic rays, crutil
 
 **Frank Valdes** wrote on Jan 21, 2005
 

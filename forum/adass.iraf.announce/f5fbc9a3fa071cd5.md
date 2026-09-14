@@ -2,7 +2,7 @@
 title: "A new Iraf package (\"stecf\") of utilities from the ST-ECF"
 ---
 
-# A new Iraf package ("stecf") of utilities from the ST-ECF
+## A new Iraf package ("stecf") of utilities from the ST-ECF
 
 **Richard Hook** wrote on May 11, 2000
 

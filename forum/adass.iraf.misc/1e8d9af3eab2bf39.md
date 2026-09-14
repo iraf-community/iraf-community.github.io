@@ -2,7 +2,7 @@
 title: "Talking to XGterm from another application ??"
 ---
 
-# Talking to XGterm from another application ??
+## Talking to XGterm from another application ??
 
 **Sergei Naumov** wrote on Apr 15, 1998
 

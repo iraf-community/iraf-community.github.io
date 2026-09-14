@@ -2,7 +2,7 @@
 title: "dictionary full message"
 ---
 
-# dictionary full message
+## dictionary full message
 
 **Mike Fitzpatrick** wrote on Jul 05, 1998
 

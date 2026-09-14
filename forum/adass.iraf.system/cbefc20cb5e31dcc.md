@@ -2,7 +2,7 @@
 title: "Quad problems !!"
 ---
 
-# Quad problems !!
+## Quad problems !!
 
 **Sergei Naumov** wrote on Dec 11, 1997
 

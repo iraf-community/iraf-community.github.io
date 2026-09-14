@@ -2,9 +2,11 @@
 title: "adass.iraf.misc"
 ---
 
-[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [buglog](../adass.iraf.buglog) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
+[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
 
 # adass.iraf.misc
+
+Miscellaneous discussion
 
 - [Need IRAF Contract Programmer](ff034fb95dd6bd99.html) · Doug Tody on Jan 15, 1998 (1 post)
 - [Talking to XGterm from another application ??](1e8d9af3eab2bf39.html) · Sergei Naumov on Apr 15, 1998 (1 post)

@@ -2,7 +2,7 @@
 title: "IMEXAM/v plot: non-interactive, same endpoints, overplots"
 ---
 
-# IMEXAM/v plot: non-interactive, same endpoints, overplots
+## IMEXAM/v plot: non-interactive, same endpoints, overplots
 
 **Frank Valdes** wrote on Sep 21, 1998
 

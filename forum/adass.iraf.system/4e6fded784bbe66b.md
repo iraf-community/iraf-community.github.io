@@ -2,7 +2,7 @@
 title: "Using SAOtng on a 16-bit (or higher) display under Linux"
 ---
 
-# Using SAOtng on a 16-bit (or higher) display under Linux
+## Using SAOtng on a 16-bit (or higher) display under Linux
 
 **John Ouellette** wrote on Jun 18, 1998
 

@@ -2,7 +2,7 @@
 title: "variables in simple CL scripts?"
 ---
 
-# variables in simple CL scripts?
+## variables in simple CL scripts?
 
 **Frank Valdes** wrote on Jun 06, 2000
 

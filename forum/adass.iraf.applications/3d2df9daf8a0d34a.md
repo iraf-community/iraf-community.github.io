@@ -2,7 +2,7 @@
 title: "FITS cubes with darkcombine"
 ---
 
-# FITS cubes with darkcombine
+## FITS cubes with darkcombine
 
 **Octavi Fors** wrote on Jan 25, 2002
 

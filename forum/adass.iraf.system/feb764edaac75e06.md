@@ -2,7 +2,7 @@
 title: "Anyone try 2.11 under Solaris 7?"
 ---
 
-# Anyone try 2.11 under Solaris 7?
+## Anyone try 2.11 under Solaris 7?
 
 **Eric Williams** wrote on Jan 19, 1999
 

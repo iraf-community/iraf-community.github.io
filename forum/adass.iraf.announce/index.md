@@ -2,9 +2,11 @@
 title: "adass.iraf.announce"
 ---
 
-[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [buglog](../adass.iraf.buglog) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
+[announce](../adass.iraf.announce) · [system](../adass.iraf.system) · [applications](../adass.iraf.applications) · [programming](../adass.iraf.programming) · [misc](../adass.iraf.misc) · [sources](../adass.iraf.sources)
 
 # adass.iraf.announce
+
+New IRAF software or facilities
 
 - [IRAF V2.11 platform upgrades (V2.11.1, Alpha, HP)](2592df9d57123be6.html) · Doug Tody on Dec 27, 1997 (1 post)
 - [Japan FTP/Web mirror](3ee674c39e54e8bd.html) · Ichikawa Shin-ichi on Jan 16, 1998 (1 post)
